@@ -17,7 +17,7 @@ g.setNode("base_box", {
     img: 'baza_base_box.jpg',
     render: '/bazy/baza_base_box_h31_novel13.png',
     colors: 'base_box_colors_7',
-
+    discount: 15
 });
 g.setNode("baza_kontynentalna", {
     node: 'baza_kontynentalna',
@@ -25,6 +25,7 @@ g.setNode("baza_kontynentalna", {
     img: 'kontynent.jpg',
     render: '/bazy/baza_kontynentalna_h31_novel13.png',
     colors: 'kontynent_colors_7',
+    discount: 15
 });
 g.setNode("baza_kontynentalna_z_szuflada", {
     node: 'baza_kontynentalna_z_szuflada',
@@ -32,6 +33,7 @@ g.setNode("baza_kontynentalna_z_szuflada", {
     img: 'kontynent_z_szuflada.jpg',
     render: '/bazy/baza_kontynentalna_szuflady_h34_novel13.png',
     colors: 'kontynent_szuflada_colors_7',
+    discount: 15
 });
 g.setNode("baza_tapicerowana", {
     node: 'baza_tapicerowana',
@@ -39,6 +41,7 @@ g.setNode("baza_tapicerowana", {
     img: 'baza_tapicerowana.jpg',
     render: '/bazy/baza_tapicerowana_h34_novel13.png',
     colors: 'tapicerowana_colors_7',
+    discount: 15
 });
 g.setNode("box_podnoszony", {
     node: 'box_podnoszony',
@@ -46,6 +49,7 @@ g.setNode("box_podnoszony", {
     img: 'box_podnoszony.jpg',
     render: '/bazy/baza_box_podnoszony_h31_novel13.png',
     colors: 'base_podnoszony_colors_7',
+    discount: 15
 });
 
 g.setNode("base_box_140_200", {
@@ -2081,6 +2085,7 @@ g.setNode("t_wezglowie", {
     overlay: true,
     overlay_z: 200,
     info: 'Wizualizacja prezentuje model łóżka w wymiarze 160 x 200 cm. Prezentowane kolory tkanin mogą odbiegać od kolorów rzeczywistych.',
+    discount: 15
 });
 
 g.setNode("t_wezglowie_glamour", {
@@ -2090,6 +2095,7 @@ g.setNode("t_wezglowie_glamour", {
     render: '/wezglowia/wezglowie_glamour_115_170_novel13.png',
     colors: 'glamour_colors_7_170',
     nextStep: 'legs',
+    discount: 15
 });
 g.setNode("t_wezglowie_vintage", {
     node: 't_wezglowie_vintage',
@@ -2098,6 +2104,7 @@ g.setNode("t_wezglowie_vintage", {
     render: '/wezglowia/wezglowie_vintage_95_170_novel13.png',
     colors: 'vintage_colors_7_170',
     nextStep: 'legs',
+    discount: 15
 });
 g.setNode("t_wezglowie_eclectic", {
     node: 't_wezglowie_eclectic',
@@ -2106,6 +2113,7 @@ g.setNode("t_wezglowie_eclectic", {
     render: '/wezglowia/wezglowie_eclectic_95_170_novel13.png',
     colors: 'eclectic_colors_7_170',
     nextStep: 'legs',
+    discount: 15
 });
 g.setNode("t_wezglowie_ladylike", {
     node: 't_wezglowie_ladylike',
@@ -2114,6 +2122,7 @@ g.setNode("t_wezglowie_ladylike", {
     render: '/wezglowia/wezglowie_ladylike_115_170_novel13.png',
     colors: 'ladylike_colors_7_170',
     nextStep: 'legs',
+    discount: 15
 });
 g.setNode("t_wezglowie_preppy", {
     node: 't_wezglowie_preppy',
@@ -2122,6 +2131,7 @@ g.setNode("t_wezglowie_preppy", {
     render: '/wezglowia/wezglowie_preppy_95_170_novel13.png',
     colors: 'preppy_colors_7_170',
     nextStep: 'legs',
+    discount: 15
 });
 g.setNode("t_wezglowie_momiko", {
     node: 't_wezglowie_momiko',
@@ -2130,6 +2140,7 @@ g.setNode("t_wezglowie_momiko", {
     render: '/wezglowia/wezglowie_momiko_95_170_novel13.png',
     colors: 'momiko_colors_7_170',
     nextStep: 'legs',
+    discount: 15
 });
 
 g.setNode("t_wezglowie_90", {
@@ -2150,6 +2161,7 @@ g.setNode("t_wezglowie_urban", {
     render: '/wezglowia/wezglowie_urban_95_170_novel13.png',
     colors: 'urban_colors_7_170',
     nextStep: 'legs',
+    discount: 15
 });
 
 //*******************************************88
@@ -4069,21 +4081,24 @@ g.setNode("materac_foxtrot_tapicerowany", {
     label: 'Foxtrot',
     img: '/materace/foxtrot.jpg',
     render: 'materace/materac_tapicerowany_h31_novel13.png',
-    colors: 'm_tap_colors_7'
+    colors: 'm_tap_colors_7',
+    discount: 15
 });
 g.setNode("materac_chacha_tapicerowany", {
     node: 'materac_chacha_tapicerowany',
     label: 'Cha-Cha',
     img: '/materace/cha_cha.jpg',
     render: 'materace/materac_tapicerowany_h31_novel13.png',
-    colors: 'm_tap_colors_7'
+    colors: 'm_tap_colors_7',
+    discount: 15
 });
 g.setNode("materac_flamenco_tapicerowany", {
     node: 'materac_flamenco_tapicerowany',
     label: 'Flamenco',
     img: '/materace/flamenco.jpg',
     render: 'materace/materac_tapicerowany_h31_novel13.png',
-    colors: 'm_tap_colors_7'
+    colors: 'm_tap_colors_7',
+    discount: 15
 });
 
 
@@ -4938,21 +4953,24 @@ g.setNode("bb_materac_foxtrot_tapicerowany", {
     label: 'Foxtrot',
     img: '/materace/foxtrot.jpg',
     render: 'materace/materac_tapicerowany_h31_novel13.png',
-    colors: 'm_tap_colors_7'
+    colors: 'm_tap_colors_7',
+    discount: 15
 });
 g.setNode("bb_materac_chacha_tapicerowany", {
     node: 'bb_materac_chacha_tapicerowany',
     label: 'Cha-Cha',
     img: '/materace/cha_cha.jpg',
     render: 'materace/materac_tapicerowany_h31_novel13.png',
-    colors: 'm_tap_colors_7'
+    colors: 'm_tap_colors_7',
+    discount: 15
 });
 g.setNode("bb_materac_flamenco_tapicerowany", {
     node: 'materac_flamenco_tapicerowany',
     label: 'Flamenco',
     img: '/materace/flamenco.jpg',
     render: 'materace/materac_tapicerowany_h31_novel13.png',
-    colors: 'm_tap_colors_7'
+    colors: 'm_tap_colors_7',
+    discount: 15
 });
 
 
@@ -5715,7 +5733,8 @@ g.setNode("bp_materac_foxtrot_tapicerowany", {
     label: 'Foxtrot',
     img: '/materace/foxtrot.jpg',
     render: 'materace/materac_tapicerowany_h31_novel13.png',
-    colors: 'bp_tap_colors_7'
+    colors: 'bp_tap_colors_7',
+    discount: 15
 });
 g.setNode("bp_materac_chacha_tapicerowany", {
     node: 'bp_materac_chacha_tapicerowany',
