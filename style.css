@@ -206,6 +206,7 @@ button.btn-star{
     text-align: center;
     /*font-size: 16px;*/
     padding: 12px 24px;
+    margin-bottom: 1%;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -220,6 +221,12 @@ button.btn-star{
 }
 .next-step-div{
     text-align: right;
+}
+
+.discount-text {
+    color: white;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 @media (max-width: 767px) {
@@ -270,6 +277,12 @@ button.btn-star{
     div.price-info{
         width: 100%;
     }
+
+    .discount-text {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
 }
 
 .configurator-start-text{
@@ -285,7 +298,7 @@ div.owl-nav{
 
 div#configurator-start-view{
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -334,7 +347,7 @@ button#reload{
 #start-img{
     position: relative;
     height: 100%;
-    background: url("img/konfigurator_start.jpg") no-repeat center;
+    background: url("img/konfigurator_hilding_start.png") no-repeat center;
     /*background: url("img/01_BANNER_NA_KONFIGURATOR.png") no-repeat center;*/
     /*background: url("img/01_BANNER_NA_KONFIGURATOR.webp") no-repeat center;*/
     background-size: cover;
@@ -345,8 +358,8 @@ body, html {
 }
 
 .discount {
+    background-image: url("img/KONFIGURATOR_PROMOCJA.png");
     margin-bottom: 5px;
-    background-color: #E51803;
     border-radius: 50%;
     height: 45px;
     width: 45px;
@@ -355,7 +368,9 @@ body, html {
     position: fixed;
     margin-left: 5px;
     top: 95px;
-    line-height: 45px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .discount-top {
@@ -411,3 +426,5 @@ body, html {
 .wall-color-circle:hover {
     border: 2px solid #4378b4;
 }
+
+

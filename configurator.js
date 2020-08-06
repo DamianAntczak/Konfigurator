@@ -277,10 +277,10 @@ class Configurator {
     showDiscount(node, startNode) {
         if (node.discount !== undefined) {
             if(startNode.node == 't_legs'){
-                return '<div class="discount-top">- ' + node.discount + '%</div>';
+                return '<div class="discount-top"></div>';
             }
             else {
-                return '<div class="discount">- ' + node.discount + '%</div>';
+                return '<div class="discount"></div>';
             }
         } else {
             return '';

@@ -1883,7 +1883,8 @@ g.setNode("glamour", {
     img: 'glamour.jpg',
     render: '/wezglowia/wezglowie_glamour_115_novel13.png',
     colors: 'glamour_colors_7',
-    nextStep: 'step_typ_materaca'
+    nextStep: 'step_typ_materaca',
+    discount: 15
 });
 g.setNode("vintage", {
     node: 'vintage',
@@ -1891,7 +1892,8 @@ g.setNode("vintage", {
     img: 'vintage.jpg',
     render: '/wezglowia/wezglowie_vintage_95_novel13.png',
     colors: 'vintage_colors_7',
-    nextStep: 'step_typ_materaca'
+    nextStep: 'step_typ_materaca',
+    discount: 15
 });
 g.setNode("eclectic", {
     node: 'eclectic',
@@ -1899,7 +1901,8 @@ g.setNode("eclectic", {
     img: 'electric.jpg',
     render: '/wezglowia/wezglowie_eclectic_95_novel13.png',
     colors: 'eclectic_colors_7',
-    nextStep: 'step_typ_materaca'
+    nextStep: 'step_typ_materaca',
+    discount: 15
 });
 g.setNode("ladylike", {
     node: 'ladylike',
@@ -1907,7 +1910,8 @@ g.setNode("ladylike", {
     img: 'ladylike.jpg',
     render: '/wezglowia/wezglowie_ladylike_115_novel13.png',
     colors: 'ladylike_colors_7',
-    nextStep: 'step_typ_materaca'
+    nextStep: 'step_typ_materaca',
+    discount: 15
 });
 g.setNode("preppy", {
     node: 'preppy',
@@ -1915,7 +1919,8 @@ g.setNode("preppy", {
     img: 'preppy.jpg',
     render: '/wezglowia/wezglowie_preppy_95_novel13.png',
     colors: 'preppy_colors_7',
-    nextStep: 'step_typ_materaca'
+    nextStep: 'step_typ_materaca',
+    discount: 15
 });
 g.setNode("momiko", {
     node: 'momiko',
@@ -1923,7 +1928,8 @@ g.setNode("momiko", {
     img: 'momiko.jpg',
     render: '/wezglowia/wezglowie_momiko_95_novel13.png',
     colors: 'momiko_colors_7',
-    nextStep: 'step_typ_materaca'
+    nextStep: 'step_typ_materaca',
+    discount: 15
 });
 g.setNode("urban", {
     node: 'urban',
@@ -1931,7 +1937,8 @@ g.setNode("urban", {
     img: 'urban.jpg',
     render: '/wezglowia/wezglowie_urban_95_novel13.png',
     colors: 'urban_colors_7',
-    nextStep: 'step_typ_materaca'
+    nextStep: 'step_typ_materaca',
+    discount: 15
 });
 
 g.setNode("bb_wezglowie", {
@@ -1953,7 +1960,8 @@ g.setNode("bb_wezglowie_glamour", {
     img: 'glamour.jpg',
     render: '/wezglowia/wezglowie_glamour_115_novel13.png',
     colors: 'glamour_colors_7',
-    nextStep: 'legs'
+    nextStep: 'legs',
+    discount: 15
 });
 g.setNode("bb_wezglowie_vintage", {
     node: 'bb_wezglowie_vintage',
@@ -1961,7 +1969,8 @@ g.setNode("bb_wezglowie_vintage", {
     img: 'vintage.jpg',
     render: '/wezglowia/wezglowie_vintage_95_novel13.png',
     colors: 'vintage_colors_7',
-    nextStep: 'legs'
+    nextStep: 'legs',
+    discount: 15
 });
 g.setNode("bb_wezglowie_eclectic", {
     node: 'bb_wezglowie_eclectic',
@@ -1969,7 +1978,8 @@ g.setNode("bb_wezglowie_eclectic", {
     img: 'electric.jpg',
     render: '/wezglowia/wezglowie_eclectic_95_novel13.png',
     colors: 'eclectic_colors_7',
-    nextStep: 'legs'
+    nextStep: 'legs',
+    discount: 15
 });
 g.setNode("bb_wezglowie_ladylike", {
     node: 'bb_wezglowie_ladylike',
@@ -1977,7 +1987,8 @@ g.setNode("bb_wezglowie_ladylike", {
     img: 'ladylike.jpg',
     render: '/wezglowia/wezglowie_ladylike_115_novel13.png',
     colors: 'ladylike_colors_7',
-    nextStep: 'legs'
+    nextStep: 'legs',
+    discount: 15
 });
 g.setNode("bb_wezglowie_preppy", {
     node: 'bb_wezglowie_preppy',
@@ -1985,7 +1996,8 @@ g.setNode("bb_wezglowie_preppy", {
     img: 'preppy.jpg',
     render: '/wezglowia/wezglowie_preppy_95_novel13.png',
     colors: 'preppy_colors_7',
-    nextStep: 'legs'
+    nextStep: 'legs',
+    discount: 15
 });
 g.setNode("bb_wezglowie_momiko", {
     node: 'bb_wezglowie_momiko',
@@ -1993,7 +2005,8 @@ g.setNode("bb_wezglowie_momiko", {
     img: 'momiko.jpg',
     render: '/wezglowia/wezglowie_momiko_95_novel13.png',
     colors: 'momiko_colors_7',
-    nextStep: 'legs'
+    nextStep: 'legs',
+    discount: 15
 });
 g.setNode("bb_wezglowie_urban", {
     node: 'bb_wezglowie_urban',
@@ -2001,7 +2014,8 @@ g.setNode("bb_wezglowie_urban", {
     img: 'urban.jpg',
     render: '/wezglowia/wezglowie_urban_95_novel13.png',
     colors: 'urban_colors_7',
-    nextStep: 'legs'
+    nextStep: 'legs',
+    discount: 15
 });
 
 g.setNode("bp_wezglowie", {
@@ -2023,7 +2037,8 @@ g.setNode("bp_wezglowie_glamour", {
     img: 'glamour.jpg',
     render: '/wezglowia/wezglowie_glamour_115_novel13.png',
     colors: 'glamour_colors_7',
-    nextStep: 'bp_step_typ_materaca'
+    nextStep: 'bp_step_typ_materaca',
+    discount: 15
 });
 g.setNode("bp_wezglowie_vintage", {
     node: 'bp_wezglowie_vintage',
@@ -2031,7 +2046,8 @@ g.setNode("bp_wezglowie_vintage", {
     img: 'vintage.jpg',
     render: '/wezglowia/wezglowie_vintage_95_novel13.png',
     colors: 'vintage_colors_7',
-    nextStep: 'bp_step_typ_materaca'
+    nextStep: 'bp_step_typ_materaca',
+    discount: 15
 });
 g.setNode("bp_wezglowie_eclectic", {
     node: 'bp_wezglowie_eclectic',
@@ -2039,7 +2055,8 @@ g.setNode("bp_wezglowie_eclectic", {
     img: 'electric.jpg',
     render: '/wezglowia/wezglowie_eclectic_95_novel13.png',
     colors: 'eclectic_colors_7',
-    nextStep: 'bp_step_typ_materaca'
+    nextStep: 'bp_step_typ_materaca',
+    discount: 15
 });
 g.setNode("bp_wezglowie_ladylike", {
     node: 'bp_wezglowie_ladylike',
@@ -2047,7 +2064,8 @@ g.setNode("bp_wezglowie_ladylike", {
     img: 'ladylike.jpg',
     render: '/wezglowia/wezglowie_ladylike_115_novel13.png',
     colors: 'ladylike_colors_7',
-    nextStep: 'bp_step_typ_materaca'
+    nextStep: 'bp_step_typ_materaca',
+    discount: 15
 });
 g.setNode("bp_wezglowie_preppy", {
     node: 'bp_wezglowie_preppy',
@@ -2055,7 +2073,8 @@ g.setNode("bp_wezglowie_preppy", {
     img: 'preppy.jpg',
     render: '/wezglowia/wezglowie_preppy_95_novel13.png',
     colors: 'preppy_colors_7',
-    nextStep: 'bp_step_typ_materaca'
+    nextStep: 'bp_step_typ_materaca',
+    discount: 15
 });
 g.setNode("bp_wezglowie_momiko", {
     node: 'bp_wezglowie_momiko',
@@ -2063,7 +2082,8 @@ g.setNode("bp_wezglowie_momiko", {
     img: 'momiko.jpg',
     render: '/wezglowia/wezglowie_momiko_95_novel13.png',
     colors: 'momiko_colors_7',
-    nextStep: 'bp_step_typ_materaca'
+    nextStep: 'bp_step_typ_materaca',
+    discount: 15
 });
 g.setNode("bp_wezglowie_urban", {
     node: 'bp_wezglowie_urban',
@@ -2071,7 +2091,8 @@ g.setNode("bp_wezglowie_urban", {
     img: 'urban.jpg',
     render: '/wezglowia/wezglowie_urban_95_novel13.png',
     colors: 'urban_colors_7',
-    nextStep: 'bp_step_typ_materaca'
+    nextStep: 'bp_step_typ_materaca',
+    discount: 15
 });
 
 g.setNode("t_wezglowie", {
@@ -3889,7 +3910,8 @@ g.setNode("materac_pokrowiec", {
 g.setNode("materac_tapicerowany", {
     label: 'Tapicerowany',
     img: 'pokrowce/materac_tapicerowany_cover.jpg',
-    render: 'transparent.png'
+    render: 'transparent.png',
+    discount: 15
 });
 
 g.setNode("materac_pokrowiec_1", {label: '', price: {g1: 0, g2: 0}, nextStep: 'step_pokrowiec'});
@@ -4725,7 +4747,8 @@ g.setNode("bb_materac_pokrowiec", {
 g.setNode("bb_materac_tapicerowany", {
     label: 'Tapicerowany',
     img: 'pokrowce/materac_tapicerowany_cover.jpg',
-    render: 'transparent.png'
+    render: 'transparent.png',
+    discount: 15
 });
 
 g.setNode("bb_materac_pokrowiec_1", {label: '', price: {g1: 0, g2: 0}, nextStep: 'bb_step_pokrowiec'});
@@ -4771,7 +4794,8 @@ g.setNode("bp_materac_pokrowiec", {
 g.setNode("bp_materac_tapicerowany", {
     label: 'Tapicerowany',
     img: 'pokrowce/materac_tapicerowany_cover.jpg',
-    render: 'transparent.png'
+    render: 'transparent.png',
+    discount: 15
 });
 
 g.setNode("bp_materac_pokrowiec_1", {label: '', price: {g1: 0, g2: 0}, nextStep: 'bp_step_pokrowiec'});
