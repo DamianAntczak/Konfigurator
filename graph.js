@@ -5765,14 +5765,16 @@ g.setNode("bp_materac_chacha_tapicerowany", {
     label: 'Cha-Cha',
     img: '/materace/cha_cha.jpg',
     render: 'materace/materac_tapicerowany_h31_novel13.png',
-    colors: 'bp_tap_colors_7'
+    colors: 'bp_tap_colors_7',
+    discount: 15
 });
 g.setNode("bp_materac_flamenco_tapicerowany", {
     node: 'bp_materac_flamenco_tapicerowany',
     label: 'Flamenco',
     img: '/materace/flamenco.jpg',
     render: 'materace/materac_tapicerowany_h31_novel13.png',
-    colors: 'bp_tap_colors_7'
+    colors: 'bp_tap_colors_7',
+    discount: 15
 });
 
 g.setNode("bp_materac_tango_140_200", {
