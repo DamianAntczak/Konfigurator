@@ -7554,7 +7554,7 @@ g.setNode("skrzynia_posciel_big_90_yes", {label: 'TAK',width: 90, price: {g1: 13
 g.setNode("skrzynia_posciel_big_140_yes", {label: 'TAK',width: 140, price: {g1: 199, g2: 199}, nextStep: 'frame_with_box'});
 g.setNode("skrzynia_posciel_big_160_yes", {label: 'TAK',width: 160, price: {g1: 269, g2: 269}, nextStep: 'frame_with_box'});
 g.setNode("skrzynia_posciel_big_180_yes", {label: 'TAK',width: 180, price: {g1: 269, g2: 269}, nextStep: 'frame_with_box'});
-g.setNode("skrzynia_posciel_big_200_yes", {label: 'TAK',width: 200, price: {g1: 289, g2: 289}, nextStep: 'frame_with_box'});
+g.setNode("skrzynia_posciel_big_200_yes", {label: 'TAK',width: 200, price: {g1: 329, g2: 329}, nextStep: 'frame_with_box'});
 
 g.setNode("skrzynia_posciel_big_90_no", {label: 'NIE',width: 90, price: {g1: 0, g2: 0}, nextStep: 'frame_no_box_90'});
 g.setNode("skrzynia_posciel_big_140_no", {label: 'NIE',width: 140, price: {g1: 0, g2: 0}, nextStep: 'frame_no_box_big'});
@@ -7599,7 +7599,7 @@ g.setNode("skrzynia_posciel_small_90_yes", {label: 'TAK',width: 90, price: {g1: 
 g.setNode("skrzynia_posciel_small_140_yes", {label: 'TAK',width: 140, price: {g1: 199, g2: 199}, nextStep: 'frame_with_box'});
 g.setNode("skrzynia_posciel_small_160_yes", {label: 'TAK',width: 160, price: {g1: 269, g2: 269}, nextStep: 'frame_with_box'});
 g.setNode("skrzynia_posciel_small_180_yes", {label: 'TAK',width: 180, price: {g1: 269, g2: 269}, nextStep: 'frame_with_box'});
-g.setNode("skrzynia_posciel_small_200_yes", {label: 'TAK',width: 200, price: {g1: 289, g2: 289}, nextStep: 'frame_with_box'});
+g.setNode("skrzynia_posciel_small_200_yes", {label: 'TAK',width: 200, price: {g1: 329, g2: 329}, nextStep: 'frame_with_box'});
 
 g.setNode("skrzynia_posciel_small_90_no", {label: 'NIE',width: 90, price: {g1: 0, g2: 0}, nextStep: 'frame_no_box_90'});
 g.setNode("skrzynia_posciel_small_140_no", {label: 'NIE',width: 140, price: {g1: 0, g2: 0}, nextStep: 'frame_no_box_small'});

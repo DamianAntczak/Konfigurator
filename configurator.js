@@ -141,7 +141,7 @@ class Configurator {
         var stepElement = $('#step-content');
         stepElement.html('');
         var divElement = stepElement.append($('<div>').addClass("configurator-base-carousel owl-carousel"));
-        var items = 3;
+        var items = 1;
         var center = false;
         var margin = 0;
         var loop = true;
@@ -164,14 +164,14 @@ class Configurator {
             responsiveBaseElement: ".configurator-right",
             responsive: {
                 0: {
-                    items: 2,
+                    items: 1,
                     center: false
                 },
                 500: {
-                    items: 3
+                    items: 1
                 },
                 770: {
-                    items: 4
+                    items: 1
                 }
             }
         });
@@ -188,15 +188,17 @@ class Configurator {
             if (options !== '') {
                 carousel.trigger('add.owl.carousel',
                     ['<div class="owl-item">' +
-                    '<div class="col-sm-12 part-carousel-box">' +
+                    '<div class="col-sm-3">' +
                     '<div class="carousel-box box" node_name="' + node_name + '" onclick="configurator.onPartClick($(this))">' +
                     '<div class="square" style="background-image: url(\'img/' + node.img + '\')" />' +
                     this.showDiscount(node,startNode) +
-                    '</div>' +
+                    '</div></div></div>' +
+                    '<div class="col-sm-3 col-sm-offset-2">' +
                     '<div class="row"><h6 class="item-label text-center word-wrap" style="color: #212121;">' + node.label.toUpperCase() + '</h6></div>' +
                     nodePrice(node_name) +
                     options +
                     '<p class="extra-text" id="extra-text-'+node_name+'"></p>' +
+                    '</div>' +
                     '</div>' +
                     '</div>']);
 
@@ -522,12 +524,12 @@ class Configurator {
         });
 
         var html = '<div id="item-color" class="col-sm-12">' +
-            '<h5 class="text-center">Wybierz tkaninę</h5>' +
+            '<h5>Wybierz tkaninę</h5>' +
             '<div class="row">';
 
         html += '<div class="col-sm-12">';
         // html += '<div class="center-block">';
-        addImageToDom(g1Colors, 'I', 'fabric_group_1');
+        addImageToDom(g1Colors, 'I', 'fabric_group_2');
         addImageToDom(g2Colors, 'II', 'fabric_group_2');
         // html += '</div>';
         html += '</div>';
@@ -538,7 +540,7 @@ class Configurator {
         function addImageToDom(colors, group, style) {
             // html += '<div class="row">';
             var counter = 0;
-            html += '<div class="col-sm-6 col-xs-12">';
+            html += '<div class="col-sm-4 col-xs-12">';
             html += '<div class="center-block ' + style + '">';
             var i;
             for (i = 0; i < colors.length; i++) {
@@ -574,7 +576,7 @@ class Configurator {
             {color:"#262626", bcg: "12.jpg"}];
 
         var html =
-            '<div id="wall-colors" class="row text-center">';
+            '<div id="wall-colors" class="row">';
             colors.forEach(color => {
                 html += '<div class="wall-color-circle" style="background-color: ' + color.color +'" onclick="configurator.onBackgroundColorChange(\'' + color.bcg +'\')"></div>';
             });
@@ -1059,21 +1061,18 @@ class Configurator {
 }
 
 
-$(document)
+$(document).ready(function () {
+        var Graph = graphlib.Graph;
+        g = new Graph();
 
-    .ready(
-        function () {
-            var Graph = graphlib.Graph;
-            g = new Graph();
-
-            $.when(
-                $.getScript("graph.js"),
-                $.Deferred(function (deferred) {
-                    $(deferred.resolve);
-                })
-            ).done(function () {
-                configurator = new Configurator(g);
-            });
-        }
-    )
-;
+        $.when(
+            $.getScript("graph.js"),
+            $.Deferred(function (deferred) {
+                $(deferred.resolve);
+            })
+        ).done(function () {
+            configurator = new Configurator(g);
+            configurator.start();
+        });
+    }
+);

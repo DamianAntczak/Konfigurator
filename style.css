@@ -19,7 +19,7 @@ img#base-img {
 
 div.price-info{
     padding-left: 10%;
-    z-index: 1000;
+    z-index: 5;
     position: absolute;
     width: 50%;
 }
@@ -353,10 +353,6 @@ button#reload{
     background-size: cover;
 }
 
-body, html {
-    height: 100%;
-}
-
 .discount {
     background-image: url("img/KONFIGURATOR_PROMOCJA.png");
     margin-bottom: 5px;
@@ -427,4 +423,10 @@ body, html {
     border: 2px solid #4378b4;
 }
 
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
 
