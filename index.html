@@ -84,7 +84,7 @@
                 <a href="/" title="Producent materacy - sklep internetowy z materacami - fabryka materacy HILDING"><p>Strona główna</p></a>
                 <div class="svg arrow" data-svgIcon="arrow">
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-198 322.5 197.4 197.4" style="enable-background:new -198 322.5 197.4 197.4;" xml:space="preserve"> <g> <g> <g> <g> <polygon class="st0" points="-147.7,514.9 -50.1,420.1 -147.7,325.4 -152.7,330.6 -60.5,420.1 -152.7,509.7 "></polygon> <path d="M-147.7,518.4l-8.5-8.8l92.1-89.5l-92.1-89.5l8.5-8.8l101.2,98.3L-147.7,518.4z M-149.2,509.7l1.6,1.6l93.9-91.2 l-93.9-91.2l-1.6,1.6l92.3,89.6L-149.2,509.7z"></path></g></g></g></g></svg>
-                </div><a href="https://hilding.pl/kategoria/materace_1_1.html" title="Materace">
+                </div><a href="/" title="Materace">
                 <p>KONFIGURATOR</p>
             </a>
             </div>
@@ -96,8 +96,8 @@
     <div class="row" id="configurator">
         <div class="col-sm-6 col-xs-12 configurator-left">
             <div id="configurator-preview" class="wrapper">
-                <div class="price-info">
-                    <h5>Wymiar i cena prezentowanego zestawu:</h5>
+                <div class="price-info text-center">
+                    <h5>Cena prezentowanego zestawu:</h5>
                     <p class="discount-info">Cena regularna</p>
                     <span id="price" class="blue-text configurator-price"></span>
                     <p class="discount-info">Cena po rabacie</p>
@@ -138,19 +138,19 @@
                 <div class="col-sm-6 col-xs-12 next-step-div  hidden-xs">
                     <button id="next-step" type="button"
                             class="btn btn-sm btn-link blue-text bold configurator-uppercase"
-                            onclick="configurator.nextStep()"></button>
+                            onclick="configurator.nextStep(); return false;"></button>
                 </div>
                 <div class="col-xs-6 previous-step-div  visible-xs">
                     <button id="previous-step-xs" type="button"
                             class="btn text-uppercase btn-summary"
-                            onclick="configurator.previousStep()">
+                            onclick="configurator.previousStep(); return false;">
                         << Cofnij
                     </button>
                 </div>
                 <div class="col-xs-6 next-step-div text-right visible-xs">
                     <button id="next-step-xs" type="button"
                             class="btn pull-right text-uppercase btn-summary"
-                            onclick="configurator.nextStep()">
+                            onclick="configurator.nextStep();">
                         Dalej >>
                     </button>
                 </div>

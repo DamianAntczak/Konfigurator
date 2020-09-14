@@ -21,7 +21,8 @@ div.price-info{
     padding-left: 10%;
     z-index: 5;
     position: absolute;
-    width: 50%;
+    width: 100%;
+    background-color: rgba(255,255,255,0.7);
 }
 
 div#example-visualization-info{
@@ -430,3 +431,6 @@ body {
     background-color: #fff;
 }
 
+.menu-fixed{
+    z-index: 1000;
+}

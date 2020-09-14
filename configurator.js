@@ -39,6 +39,7 @@ class Configurator {
             }
             this.loadLevel(selectedNode.nextStep);
         }
+        e.preventDefault();
     }
 
     previousStep() {
@@ -393,8 +394,8 @@ class Configurator {
 
             $nextStep.show();
             $nextStepXs.show();
-            $nextStep.attr("onclick", "configurator.nextStep()").removeAttr("style");
-            $nextStepXs.attr("onclick", "configurator.nextStep()").removeAttr("style");
+            $nextStep.attr("onclick", "configurator.nextStep(); return false;").removeAttr("style");
+            $nextStepXs.attr("onclick", "configurator.nextStep(); return false;").removeAttr("style");
             let nextStep = configurator.graph.node(node.nextStep);
             $nextStep.text('następny krok: ' + nextStep.title + ' >>');
             $nextStepXs.text('Dalej >>');
