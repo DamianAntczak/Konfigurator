@@ -525,7 +525,7 @@ class Configurator {
         });
 
         var html = '<div id="item-color" class="col-sm-12">' +
-            '<h5>Wybierz tkaninę</h5>' +
+            '<h6>Wybierz tkaninę</h6>' +
             '<div class="row">';
 
         html += '<div class="col-sm-12">';
@@ -541,7 +541,7 @@ class Configurator {
         function addImageToDom(colors, group, style) {
             // html += '<div class="row">';
             var counter = 0;
-            html += '<div class="col-sm-4 col-xs-12">';
+            html += '<div class="col-sm-5 col-xs-12" style="padding-left: 0;">';
             html += '<div class="center-block ' + style + '">';
             var i;
             for (i = 0; i < colors.length; i++) {
@@ -551,7 +551,7 @@ class Configurator {
                     html += '<span class="bold text-uppercase" style="font-size: 11px;">' + group + ' grupa</span>';
                 }
                 html += '<div color="' + color.node + '" name="' + color.name + '" onclick="configurator.onColorSelect($(this))" class="tiles img_tkan" style="background-image: url(\'' + color.url + '\')" ></div>';
-                html += '<span class="bold text-uppercase" style="font-size: 8px;">' + color.name + '</span>';
+                html += '<span class="bold text-uppercase" style="font-size: 6px;">' + color.name + '</span>';
                 html += '</div>';
             }
             html += '</div>';

@@ -8,7 +8,7 @@ img#base-img {
 }
 
 .configurator-price {
-    font-size: 35px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -32,6 +32,7 @@ div#example-visualization-info{
     color: #737477;
     width: 90%;
     position: absolute;
+    min-height: 30px;
 }
 
 div.color {
@@ -133,13 +134,13 @@ img.configurator-img {
 }
 
 .img_tkan {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     padding: 2px;
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 3px 3px 3px 0;
+    margin: 3px 0 3px 0;
     background-clip: content-box;
     text-align: center;
 }
@@ -339,6 +340,7 @@ button#reload{
     color: #616161;
     font-weight: bold;
     text-transform: uppercase;
+    font-size: 0.6rem;
 }
 
 #configurator-preview{
@@ -408,6 +410,10 @@ button#reload{
 
 .extra-text-summary{
     font-size: 0.8rem;
+}
+
+#wall-colors {
+    margin-left: -5px;
 }
 
 .wall-color-circle {
