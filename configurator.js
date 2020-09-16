@@ -98,7 +98,7 @@ class Configurator {
 
     refresh(node) {
         $('#step-number').text('Krok ' + node.number);
-        $('#step-title').text(node.label);
+        $('#step-title').text(node.label + ':');
         let $previousStep = $("#previous-step");
         let $previousStepXs = $("#previous-step-xs");
         if (this.allSteps[this.stepIndex - 1] == null) {
@@ -194,8 +194,8 @@ class Configurator {
                     '<div class="square" style="background-image: url(\'img/' + node.img + '\')" />' +
                     this.showDiscount(node,startNode) +
                     '</div></div></div>' +
-                    '<div class="col-sm-3 col-sm-offset-2">' +
-                    '<div class="row"><h6 class="item-label text-center word-wrap" style="color: #212121;">' + node.label.toUpperCase() + '</h6></div>' +
+                    '<div class="col-sm-4 col-sm-offset-2">' +
+                    '<div><h6 class="item-label word-wrap" style="color: #212121;">' + node.label.toUpperCase() + '</h6></div>' +
                     nodePrice(node_name) +
                     options +
                     '<p class="extra-text" id="extra-text-'+node_name+'"></p>' +
@@ -321,6 +321,7 @@ class Configurator {
         $('#step-number').show();
         $('#step-title').show();
         $('#item-color').show();
+        $('#background-color').show();
     }
 
     onPartClick(selectedImg) {
@@ -525,7 +526,7 @@ class Configurator {
         });
 
         var html = '<div id="item-color" class="col-sm-12">' +
-            '<h6>Wybierz tkaninę</h6>' +
+            '<h6 class="blue-text">Wybierz tkaninę</h6>' +
             '<div class="row">';
 
         html += '<div class="col-sm-12">';
@@ -607,12 +608,12 @@ class Configurator {
         });
 
         var html = '<div id="item-color" class="col-sm-12">' +
-            '<h5 class="text-center">Wybierz pokrowiec</h5>' +
+            '<h5 class="text-left blue-text">Wybierz pokrowiec</h5>' +
             '<div class="row">';
 
         html += '<div class="col-sm-12">';
         // html += '<div class="center-block">';
-        html += '<div class="center-block" style="text-align: center;font-size: 9px;">';
+        html += '<div class="center-block" style="text-align: left;font-size: 9px;">';
         if (g1Colors.length > 0) {
             addImageToDom(g1Colors, g1Colors[0].name);
         }
@@ -747,6 +748,7 @@ class Configurator {
         $('#item-color').hide();
         $('#next-step').hide();
         $('#next-step-xs').hide();
+        $('#background-color').hide();
         // $('#skip-step').hide();
         $('#example-visualization-info').html('');
 

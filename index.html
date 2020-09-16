@@ -125,8 +125,8 @@
 </div>
 <section id="configurator-section" class="container-fluid margin-top-90 show-section configurator" hidden>
     <div class="container">
-        <h4 class="text-center"><b>Stwórz swoje własne łóżko</b></h4>
-        <div class="row" id="configurator">
+        <h4 class="text-center title"><b>Stwórz swoje własne łóżko</b></h4>
+        <div class="row equal" id="configurator">
             <div class="col-sm-6 col-xs-12 configurator-left">
                 <div id="configurator-preview" class="wrapper">
                     <div class="price-info text-center">
@@ -147,19 +147,20 @@
             </div>
             <div class="col-sm-6 col-xs-12 configurator-right">
                 <div class="row margin-bottom-25">
-                    <div class="text-center">
-                        <p id="step-number" class="configurator-uppercase">Krok 1</p>
-                        <p id="step-title" class="blue-text configurator-uppercase text-left"></p>
-                        <!--<button id="skip-step" type="button" class="btn btn-link" onclick="configurator.skipStep()">Pomiń ten krok></button>-->
+                    <div class="col-sm-12">
+                    <h3 id="step-number" class="configurator-uppercase text-center">Krok 1</h3>
+                    <h6 id="step-title" class="blue-text text-left text-capitalize"></h6>
+                    <!--<button id="skip-step" type="button" class="btn btn-link" onclick="configurator.skipStep()">Pomiń ten krok></button>-->
                     </div>
                 </div>
                 <div class="row owl-width">
                     <div id="step-content" class="col-sm-12">
 
                     </div>
-                    <div id="background-color" class="col-sm-12">
-                        <h6 id="background-color-header">Wybierz kolor wnętrza</h6>
-                    </div>
+
+                </div>
+                <div id="background-color">
+                    <h6 id="background-color-header" class="blue-text">Wybierz kolor wnętrza</h6>
                 </div>
             </div>
         </div>
@@ -168,18 +169,18 @@
         <div class="row" style="min-height: 60px !important;">
             <div class="col-sm-6 col-sm-offset-6">
                 <div class="row">
-                    <div class="col-sm-3  col-xs-12 previous-step-div  hidden-xs">
+                    <div class="col-sm-4  col-xs-12 previous-step-div  hidden-xs">
                         <button id="previous-step" type="button"
                                 class="btn btn-sm btn-link blue-text bold configurator-uppercase"
                                 onclick="configurator.previousStep()">
                         </button>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-4 text-center">
                         <button id="reload" class="btn btn-sm btn-link blue-text" onclick="configurator.repeat()"><span
                                 class="glyphicon glyphicon-repeat"></span> Zacznij ponownie
                         </button>
                     </div>
-                    <div class="col-sm-3 col-xs-12 next-step-div  hidden-xs">
+                    <div class="col-sm-4 col-xs-12 next-step-div  hidden-xs">
                         <button id="next-step" type="button"
                                 class="btn btn-sm btn-link blue-text bold configurator-uppercase"
                                 onclick="configurator.nextStep(); return false;"></button>

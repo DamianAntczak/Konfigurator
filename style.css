@@ -184,14 +184,20 @@ img.configurator-img {
 .label-small {
     font-size: small;
     font-weight: normal;
+    width: 100%;
 }
 
 #step-number, #step-title{
     font-weight: 500;
+    text-transform: capitalize;
 }
 
 #step-number{
-    font-size: 12px;
+    background-color: #efefef;
+}
+
+.blue-text{
+    color: #307bbf;
 }
 
 div.start-content{
@@ -343,7 +349,7 @@ button#reload{
     color: #616161;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 0.6rem;
+    font-size: 0.9rem;
 }
 
 #configurator-preview{
@@ -443,3 +449,27 @@ body {
 .menu-fixed{
     z-index: 1000;
 }
+
+h4.title {
+    margin-top: 20px;
+}
+
+.equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    .row.equal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #background-color{
+        position: absolute;
+        bottom: 0;
+    }
+
+}
+
