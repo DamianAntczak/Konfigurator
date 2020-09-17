@@ -264,7 +264,7 @@ button.btn-star{
         font-size: 10px;
     }
     .configurator-price {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     #price-vat{
@@ -294,6 +294,10 @@ button.btn-star{
         padding-right: 5%;
     }
 
+    div.no-padding-mobile{
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 .configurator-start-text{
@@ -460,7 +464,7 @@ h4.title {
     flex-wrap: wrap;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
     .row.equal {
         display: flex;
         flex-wrap: wrap;
@@ -473,3 +477,6 @@ h4.title {
 
 }
 
+div.price-info {
+    z-index: 500;
+}

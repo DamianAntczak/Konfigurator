@@ -39,7 +39,6 @@ class Configurator {
             }
             this.loadLevel(selectedNode.nextStep);
         }
-        e.preventDefault();
     }
 
     previousStep() {
@@ -189,12 +188,12 @@ class Configurator {
             if (options !== '') {
                 carousel.trigger('add.owl.carousel',
                     ['<div class="owl-item">' +
-                    '<div class="col-sm-3">' +
+                    '<div class="col-sm-3 col-sm-12">' +
                     '<div class="carousel-box box" node_name="' + node_name + '" onclick="configurator.onPartClick($(this))">' +
                     '<div class="square" style="background-image: url(\'img/' + node.img + '\')" />' +
                     this.showDiscount(node,startNode) +
                     '</div></div></div>' +
-                    '<div class="col-sm-4 col-sm-offset-2">' +
+                    '<div class="col-sm-4 col-xs-12 col-sm-offset-2">' +
                     '<div><h6 class="item-label word-wrap" style="color: #212121;">' + node.label.toUpperCase() + '</h6></div>' +
                     nodePrice(node_name) +
                     options +
@@ -542,7 +541,7 @@ class Configurator {
         function addImageToDom(colors, group, style) {
             // html += '<div class="row">';
             var counter = 0;
-            html += '<div class="col-sm-5 col-xs-12" style="padding-left: 0;">';
+            html += '<div class="col-md-5 col-sm-6 col-xs-12" style="padding-left: 0;">';
             html += '<div class="center-block ' + style + '">';
             var i;
             for (i = 0; i < colors.length; i++) {
