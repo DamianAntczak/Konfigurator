@@ -4443,25 +4443,25 @@ g.setNode("materac_conga_200_200", {
 g.setNode("materac_fandango_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 699, g2: 699},
+    price: {g1: 999, g2: 999},
     nextStep: 'step_5'
 });
 g.setNode("materac_fandango_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 779, g2: 779},
+    price: {g1: 1119, g2: 1119},
     nextStep: 'step_5'
 });
 g.setNode("materac_fandango_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 869, g2: 869},
+    price: {g1: 1239, g2: 1239},
     nextStep: 'step_5'
 });
 g.setNode("materac_fandango_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*589, g2: 2*589},
+    price: {g1: 2*819, g2: 2*819},
     nextStep: 'step_5'
 });
 
@@ -6899,31 +6899,31 @@ g.setNode("t_materac_conga_200_200", {
 g.setNode("t_materac_fandango_90_200", {
     label: '90/200',
     width: 90,
-    price: {g1: 639, g2: 639},
+    price: {g1: 689, g2: 689},
     nextStep: 'skrzynia_posciel_90'
 });
 g.setNode("t_materac_fandango_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 929, g2: 929},
+    price: {g1: 999, g2: 999},
     nextStep: 'skrzynia_posciel_small'
 });
 g.setNode("t_materac_fandango_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 1049, g2: 1049},
+    price: {g1: 1119, g2: 1119},
     nextStep: 'skrzynia_posciel_small'
 });
 g.setNode("t_materac_fandango_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 1159, g2: 1159},
+    price: {g1: 1239, g2: 1239},
     nextStep: 'skrzynia_posciel_small'
 });
 g.setNode("t_materac_fandango_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 1518, g2: 1518},
+    price: {g1: 2*819, g2: 2*819},
     nextStep: 'skrzynia_posciel_small',
     extra: '*(2x 100/200)'
 });
@@ -7054,31 +7054,31 @@ g.setNode("t_materac_dance_200_200", {
 g.setNode("t_materac_electro_90_200", {
     label: '90/200',
     width: 90,
-    price: {g1: 2399, g2: 2399},
+    price: {g1: 2639, g2: 2639},
     nextStep: 'skrzynia_posciel_90'
 });
 g.setNode("t_materac_electro_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 3449, g2: 3449},
+    price: {g1: 3799, g2: 3799},
     nextStep: 'skrzynia_posciel_big'
 });
 g.setNode("t_materac_electro_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 3849, g2: 3849},
+    price: {g1: 4239, g2: 4239},
     nextStep: 'skrzynia_posciel_big'
 });
 g.setNode("t_materac_electro_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 4199, g2: 4199},
+    price: {g1: 4619, g2: 4619},
     nextStep: 'skrzynia_posciel_big'
 });
 g.setNode("t_materac_electro_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 5998, g2: 5998},
+    price: {g1: 2*3299, g2: 2*3299},
     nextStep: 'skrzynia_posciel_big',
     extra: '*(2x 100/200)'
 });
