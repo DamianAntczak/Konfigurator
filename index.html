@@ -2,16 +2,13 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-    <meta name="description" content="Stwórz łóżko w swoim własnym stylu!"/>
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta name="description" content="Stwórz łóżko w swoim własnym stylu!" />
     <title>Konfigurator</title>
-    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" async></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" async></script>
-    <script src="https://hilding.pl/viewHilding/js/owl.carousel.js"></script>
+    <script src="https://hilding.pl/viewHilding/js/owl.carousel.js" async></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.54/pdfmake.min.js" async></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.54/vfs_fonts.js" async></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" async
@@ -26,7 +23,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
           integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"
           media="none" onload="if(media!='screen')media='screen'">
-    <link rel="stylesheet" type="text/css" href="https://hilding.pl/viewHilding/css/style.css?ver=0.0.2">
+    <link rel="stylesheet" type="text/css" href="https://hilding.pl/viewHilding/css/style.css?ver=0.0.1">
     <link rel="stylesheet" type="text/css" href="https://hilding.pl/viewHilding/css/lightbox.css" media="none"
           onload="if(media!='screen')media='screen'">
     <link rel="stylesheet" type="text/css" href="https://hilding.pl/viewHilding/css/owl.theme.css" media="none"
@@ -37,172 +34,86 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext"
           rel="stylesheet">
 
-
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <script src="https://dagrejs.github.io/project/graphlib/latest/graphlib.min.js"></script>
-    <script src="./scripts/hilding.js"></script>
     <script src="configurator.js"></script>
 </head>
-<body id="body">
-<script type="text/javascript">
-    var searchClick = false;
-</script>
-<nav class="container-fluid menu-fixed">
-    <div class="row nav-box ver-center">
-        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-8">
-            <a href="https://hilding.pl/">
-                <div class="logo">
-                    <div class="svg logo-svg" data-svgIcon="logo-svg">
-                        <svg width="150" height="30" viewBox="0 0 150 30" xmlns="http://www.w3.org/2000/svg"
-                             xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <defs>
-                                <path id="a" d="M0 40.6h149.74V.732H0z"></path>
-                            </defs>
-                            <g transform="translate(0 -11)" fill="none" fill-rule="evenodd">
-                                <path d="M147.576 15.18h-.15v-.64h.15c.135 0 .226.006.303.04.112.04.18.138.18.264 0 .256-.218.335-.484.335zm.343.165c.31-.057.514-.23.514-.522 0-.213-.13-.41-.388-.49-.092-.03-.218-.05-.385-.05h-.578v1.982h.343v-.83h.144c.114.04.295.332.594.83h.396c-.285-.475-.494-.806-.64-.907v-.013zM42.643 13.457h4.09v6.323h7.773v-6.323h4.09V29.54h-4.09v-6.594h-7.773v6.593h-4.09"
-                                      fill="#337ABD"></path>
-                                <path fill="#337ABD"
-                                      d="M62.604 29.537h4.084v-16.08h-4.084M70.7 13.457h4.083v13.08h5.765v3.002h-9.85M100.693 29.54h4.084V13.457h-4.084M42.94 33.337h1.24l1.102 3.153c.1.283.192.593.29.923h.02c.1-.33.2-.613.31-.913l.81-2.205-.373-.958h1.11l1.16 3.104c.118.31.245.643.336.966h.027c.092-.333.164-.624.273-.948l1.04-3.12h1.13l-2.024 5.515h-.93l-.902-2.32c-.127-.324-.245-.625-.328-.913h-.026c-.092.298-.192.58-.32.904l-.912 2.33h-.912l-2.123-5.517zM54.17 36.65l-2.05-3.31h1.202l1.406 2.418h.017l1.394-2.42h1.185l-2.05 3.32v2.164H54.17M58.165 37.663c.356.224.81.4 1.357.4.502 0 1.004-.176 1.004-.65 0-1.07-2.598-.938-2.598-2.61 0-.808.7-1.515 1.95-1.515.62 0 1.14.125 1.47.275v.915c-.475-.225-.96-.348-1.433-.348-.42 0-.82.148-.82.59 0 1.006 2.597.873 2.597 2.61 0 .974-.912 1.574-2.142 1.574-.7 0-1.358-.184-1.813-.475l.428-.767zM62.997 33.337h1.45c.556 0 .993.076 1.35.234.62.283.975.816.975 1.564 0 .633-.3 1.29-1.15 1.607-.328.117-.738.19-1.276.19h-.255v1.89h-1.093v-5.483zm1.423 2.78c.29 0 .527-.042.7-.125.338-.15.502-.45.502-.858 0-.357-.155-.664-.474-.84-.173-.09-.42-.14-.747-.14h-.31v1.962h.33zM69.15 33.313h.877l2.415 5.507h-1.185l-.584-1.373H68.53l-.564 1.373h-1.14l2.325-5.507zm1.185 3.318l-.42-1.087c-.163-.416-.244-.666-.3-.85h-.018c-.053.192-.145.434-.31.858l-.437 1.08h1.485zM78.02 38.82l-2.605-3.126c-.266-.31-.474-.583-.677-.833h-.017c.018.216.018.534.018.85v3.11h-1.092v-5.483h1.083l2.517 3.003c.265.325.483.59.665.85h.017c-.008-.292-.018-.624-.018-.922v-2.93h1.102v5.482h-.993zM80.548 38.82h1.096v-5.48h-1.096M85.607 33.337h.994l1.58 2.072c.207.284.362.49.5.707h.017c.128-.21.282-.45.493-.74l1.44-2.04h1.004v5.483H90.53v-3.096c0-.223 0-.505.017-.722h-.018c-.082.158-.302.465-.41.617l-1.185 1.677h-.502l-1.312-1.72c-.127-.167-.292-.358-.41-.566h-.018c.01.218.01.5.01.69v3.12h-1.095v-5.483zM92.874 36.1c0-1.664 1.247-2.81 3.026-2.81 1.778 0 3.027 1.154 3.027 2.81 0 1.68-1.275 2.803-3.027 2.803-1.768 0-3.026-1.122-3.026-2.802m4.885 0c0-1.213-.72-1.97-1.86-1.97-1.113 0-1.86.722-1.86 1.97 0 1.24.747 1.962 1.86 1.962 1.104 0 1.86-.722 1.86-1.96M105.18 38.462c-.545.25-1.35.44-2.187.44-1.968 0-3.136-1.156-3.136-2.728 0-1.662 1.304-2.885 3.302-2.885.7 0 1.284.123 1.738.273v.93c-.474-.214-1.012-.366-1.658-.366-1.45 0-2.215.817-2.215 1.98 0 1.182.756 1.957 2.05 1.957.403 0 .766-.068 1.003-.166v-1.74h1.103v2.304zM108.537 33.313h.874l2.418 5.507c-.72.182-1.132.574-1.132.906 0 .174.102.29.31.29.102 0 .21-.015.34-.048l.115.534c-.243.066-.508.098-.718.098-.61 0-.948-.282-.948-.707 0-.49.43-.84.84-1.1l-.577-1.346h-2.14l-.564 1.373h-1.142l2.327-5.507zm1.184 3.318l-.417-1.087c-.165-.416-.246-.666-.3-.85h-.018c-.055.192-.15.434-.31.858l-.44 1.08h1.486zM114.3 33.337h1.24l1.102 3.153c.1.283.192.593.292.923h.018c.1-.33.2-.613.31-.913l.812-2.205-.375-.958h1.11l1.16 3.104c.117.31.244.643.336.966h.028c.092-.333.164-.624.273-.948l1.04-3.12h1.128l-2.023 5.515h-.93l-.9-2.32c-.13-.324-.247-.625-.33-.913h-.026c-.092.298-.192.58-.32.904l-.912 2.33h-.91l-2.125-5.517zM123.9 38.82h1.094v-5.48H123.9M126.69 33.337h3.316l-.3.85h-1.922v1.433h1.923v.845h-1.923v1.508h2.233v.847h-.18c-.55.232-.924.566-.924.906 0 .175.102.29.32.29.092 0 .2-.013.337-.048l.118.532c-.254.066-.51.1-.72.1-.61 0-.958-.282-.958-.706 0-.466.393-.815.804-1.074h-2.124v-5.483zM135.933 38.47c-.664.333-1.302.434-1.905.434-1.97 0-3.035-1.158-3.035-2.762 0-1.59 1.24-2.854 3.17-2.854.66 0 1.206.118 1.578.265v.933c-.463-.224-.965-.357-1.548-.357-1.33-.002-2.033.914-2.033 1.986 0 1.148.765 1.947 1.995 1.947.595 0 1.05-.157 1.478-.38l.3.787zM137.256 33.337h3.32l-.302.85h-1.924v1.433h1.924v.845h-1.924v1.508h2.234v.847h-3.328M141.16 39.42c.162.073.37.098.545.098.613 0 .694-.364.694-.806v-5.375h1.093v5.508c0 .873-.502 1.514-1.696 1.514-.382 0-.62-.05-.857-.135l.22-.806zM42.643 13.457h4.09v6.323h7.773v-6.323h4.09V29.54h-4.09v-6.594h-7.773v6.593h-4.09"></path>
-                                <path fill="#337ABD"
-                                      d="M62.604 29.537h4.084v-16.08h-4.084M70.7 13.457h4.083v13.08h5.765v3.002h-9.85M88.406 26.537H86.46V16.46h1.868c3.794 0 5.85 1.9 5.85 5.023 0 2.64-1.682 5.054-5.772 5.054m.322-13.08H82.37V29.54h5.933c5.955 0 10.235-3.102 10.235-8.174 0-4.885-3.636-7.91-9.81-7.91M100.693 29.54h4.084V13.457h-4.084M121.214 20.9c0 .633 0 1.806.054 2.635h-.054c-.503-.687-1.014-1.292-1.574-1.954l-7.056-8.12h-4.086v16.078h4.086v-8.173c0-.687 0-1.76-.077-2.297h.05l1.658 2.004 7.294 8.466h3.794v-16.08h-4.09V20.9zM139.77 26.34c-.616.22-1.528.34-2.516.34-3.498 0-5.42-2.048-5.42-5.048 0-3.102 2.023-5.248 6.035-5.248 1.922 0 3.525.466 4.995 1.1v-3.44c-1.545-.465-3.233-.757-5.315-.757-6.12 0-10.075 3.684-10.075 8.54 0 4.536 3.42 7.953 9.563 7.953 2.46 0 4.922-.487 6.817-1.34v-6.854h-4.086v4.754zM12.84 14.332c-1.765 1.607-2.65 3.544-2.65 5.814 0 .19.01.38.036.563h-.115c-1.716 0-3.192.55-4.417 1.667-1.26 1.134-1.886 2.506-1.886 4.12 0 .103.005.2.014.295.59-.1 1.276-.172 2.07-.178 5.366-.042 13.752 4.536 20.346 4.553 3.204.007 5.38-.466 6.824-1.018.284-.107.542-.222.765-.328.517-.244.902-.49 1.182-.7 1.168-1.383 1.707-2.86 1.707-4.588 0-2.128-.83-3.95-2.483-5.457-1.65-1.51-3.634-2.264-5.935-2.264-.308 0-.6.01-.884.036-.715-1.482-1.82-2.663-3.303-3.564-1.487-.903-3.13-1.352-4.922-1.352-.928 0-1.806.11-2.63.34-1.37.375-2.61 1.07-3.714 2.058M147.732 16.855c-.95 0-1.61-.68-1.61-1.542 0-.875.66-1.544 1.61-1.544.96 0 1.622.668 1.622 1.543 0 .86-.66 1.542-1.622 1.542m0-3.4c-1.16 0-1.987.81-1.987 1.858 0 1.045.827 1.85 1.987 1.85 1.145 0 2.002-.802 2.01-1.84v-.02c-.008-1.044-.86-1.847-2.01-1.847"></path>
-                                <path d="M6.415 30.576c4.615 1.263 14.695 6.545 22.745 4.43 4.206-1.112 5.588-4.46 5.588-4.46s-1.918 2.628-9.39 2.613c-6.594-.02-14.977-4.6-20.344-4.56-3.67.03-5.055 1.356-5.055 1.356s1.81-.647 6.455.62"
-                                      fill="#A1BF38"></path>
-                                <path d="M12.84 14.332c-1.765 1.607-2.65 3.544-2.65 5.814 0 .19.01.38.036.563h-.115c-1.716 0-3.192.55-4.417 1.667-1.26 1.134-1.886 2.506-1.886 4.12 0 .103.005.2.014.295.59-.1 1.276-.172 2.07-.178 5.366-.042 13.752 4.536 20.346 4.553 3.204.007 5.38-.466 6.824-1.018.284-.107.542-.222.765-.328.517-.244.902-.49 1.182-.7 1.168-1.383 1.707-2.86 1.707-4.588 0-2.128-.83-3.95-2.483-5.457-1.65-1.51-3.634-2.264-5.935-2.264-.308 0-.6.01-.884.036-.715-1.482-1.82-2.663-3.303-3.564-1.487-.903-3.13-1.352-4.922-1.352-.928 0-1.806.11-2.63.34-1.37.375-2.61 1.07-3.714 2.058"
-                                      fill="#337ABD"></path>
-                            </g>
-                        </svg>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-</nav>
-<!-- ====  PANEL.contentSearch  ==== -->
-<div id="search-box" class="hidden-sm hidden-xs">
-    <form id="search_form" action="/search/post" method="POST" onsubmit="if(!$(this).valid()) { return false; }">
-        <input type="hidden" value="main" name="search_action">
-        <input type="hidden" value="1" name="search_action_id">
-        <input name="name" type="text" value="" placeholder="Szukaj" class="main-input">
-        <button type="submit" class="green-button-find">Szukaj</button>
-    </form>
-</div>
-<!-- ==== KONIEC.contentSearch  ==== --><!-- ==== KONIEC.contentHeadPart  ==== -->
-<!--         ===== PANEL.contentProductList =====         -->
-<!--contentNavigationBar-->
-<div class="navigationbar">
-    <div class="box">
-        <div class="owl-carousel">
-            <div class="banner"
-                 style="background-image: url('https://hilding.pl//viewHilding/assets/img/1mini.jpg')"></div>
-            <div class="banner"
-                 style="background-image: url('https://hilding.pl//viewHilding/assets/img/2mini.jpg')"></div>
-            <div class="banner"
-                 style="background-image: url('https://hilding.pl//viewHilding/assets/img/3mini.jpg')"></div>
-            <div class="banner"
-                 style="background-image: url('https://hilding.pl//viewHilding/assets/img/4mini.jpg')"></div>
-            <div class="banner"
-                 style="background-image: url('https://hilding.pl//viewHilding/assets/img/5mini.jpg')"></div>
-            <div class="banner"
-                 style="background-image: url('https://hilding.pl//viewHilding/assets/img/6mini.jpg')"></div>
-        </div>
-        <div class="breadcrumb">
-            <h1>Materace</h1>
-            <div class="flex-center-center text">
-                <a href="/" title="Producent materacy - sklep internetowy z materacami - fabryka materacy HILDING"><p>
-                    Strona główna</p></a>
-                <div class="svg arrow" data-svgIcon="arrow">
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                         x="0px" y="0px" viewBox="-198 322.5 197.4 197.4"
-                         style="enable-background:new -198 322.5 197.4 197.4;" xml:space="preserve"> <g> <g> <g> <g> <polygon
-                            class="st0"
-                            points="-147.7,514.9 -50.1,420.1 -147.7,325.4 -152.7,330.6 -60.5,420.1 -152.7,509.7 "></polygon>
-                        <path d="M-147.7,518.4l-8.5-8.8l92.1-89.5l-92.1-89.5l8.5-8.8l101.2,98.3L-147.7,518.4z M-149.2,509.7l1.6,1.6l93.9-91.2 l-93.9-91.2l-1.6,1.6l92.3,89.6L-149.2,509.7z"></path></g></g></g></g></svg>
-                </div>
-                <a href="/" title="Materace">
-                    <p>KONFIGURATOR</p>
-                </a>
-            </div>
-        </div>
-        <div class="line">&nbsp;</div>
+<body>
+<div id="start-img">
+    <div class="row text-center" id="configurator-start-view">
+        <h3 class="configurator-start-text ">Stwórz swoje własne łóżko</h3>
+        <button type="button" class="btn btn-lg btn-star" onclick="configurator.start()">START KONFIGURACJI</button>
+        <h5 class="discount-text">Promocja -15% na wszystkie łóżka. Obejmuje również materace dedykowane do łóżek kontynentalnych w obiciu tapicerskim. Nie dotyczy stelaży, nóg i pojemnika na pościel.</h5>
+        <h5 class="discount-text">Czas trwania promocji: 3.08-30.11.2020</h5>
     </div>
 </div>
-<section id="configurator-section" class="container-fluid margin-top-90 show-section configurator" hidden>
-    <div class="container">
-        <h4 class="text-center title"><b>Stwórz swoje własne łóżko</b></h4>
-        <div class="row equal" id="configurator">
-            <div class="col-md-6 col-xs-12 configurator-left">
-                <div id="configurator-preview" class="wrapper">
-                    <div class="price-info text-center">
-                        <h5>Cena prezentowanego zestawu:</h5>
-                        <p class="discount-info">Cena regularna</p>
-                        <span id="price" class="blue-text configurator-price"></span>
-                        <p class="discount-info">Cena po rabacie</p>
-                        <span id="price-discount" class="red-text configurator-price"></span>
-                        <p id="price-vat" hidden>Cena zawiera podatek VAT 23 %</p>
-                    </div>
-                    <div id="example-visualization-info">
-                    </div>
-                    <picture id="base-img">
-                        <!--                    <source type="image/webp" srcset="renders/tlo001.webp">-->
-                        <img id="base-img-src" class="img-responsive" src="renders/tlo001.jpg" alt="Glamour"/>
-                    </picture>
+<section id="configurator-section" class="container-fluid margin-bottom-75 show-section configurator" hidden>
+    <div class="row" id="configurator">
+        <div class="col-sm-6 col-xs-12 configurator-left">
+            <div id="configurator-preview" class="wrapper">
+                <div class="price-info">
+                    <h5>Wymiar i cena prezentowanego zestawu:</h5>
+                    <p class="discount-info">Cena regularna</p>
+                    <span id="price" class="blue-text configurator-price"></span>
+                    <p class="discount-info">Cena po rabacie</p>
+                    <span id="price-discount" class="red-text configurator-price"></span>
+                    <p id="price-vat" hidden>Cena zawiera podatek VAT 23 %</p>
                 </div>
+                <div id="example-visualization-info">
+                </div>
+                <picture id="base-img">
+                    <!--                    <source type="image/webp" srcset="renders/tlo001.webp">-->
+                    <img id="base-img-src" class="img-responsive" src="renders/tlo001.jpg" alt="Glamour"/>
+                </picture>
             </div>
-            <div class="col-md-6 col-xs-12 no-padding-mobile configurator-right">
-                <div class="row margin-bottom-25">
-                    <div class="col-sm-12">
-                    <h3 id="step-number" class="configurator-uppercase text-center">Krok 1</h3>
-                    <h6 id="step-title" class="blue-text text-left text-capitalize"></h6>
+        </div>
+        <div class="col-sm-6 col-xs-12 configurator-right">
+            <div class="row margin-bottom-25">
+                <div class="text-center">
+                    <p id="step-number" class="configurator-uppercase">Krok 1</p>
+                    <p id="step-title" class="blue-text configurator-uppercase"></p>
                     <!--<button id="skip-step" type="button" class="btn btn-link" onclick="configurator.skipStep()">Pomiń ten krok></button>-->
-                    </div>
-                </div>
-                <div class="row owl-width">
-                    <div id="step-content" class="col-sm-12">
-
-                    </div>
-
-                </div>
-                <div id="background-color">
-                    <h6 id="background-color-header" class="blue-text">Wybierz kolor wnętrza</h6>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row" style="padding-top: 20px;min-height: 60px !important;">
-            <div class="col-md-6 col-sm-offset-6">
-                <div class="row">
-                    <div class="col-sm-4  col-xs-12 previous-step-div  hidden-xs">
-                        <button id="previous-step" type="button"
-                                class="btn btn-sm btn-summary btn-link blue-text bold configurator-uppercase"
-                                onclick="configurator.previousStep()">
-                        </button>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <button id="reload" class="btn btn-sm btn-link blue-text" onclick="configurator.repeat()"><span
-                                class="glyphicon glyphicon-repeat"></span> Zacznij ponownie
-                        </button>
-                    </div>
-                    <div class="col-sm-4 col-xs-12 next-step-div  hidden-xs">
-                        <button id="next-step" type="button"
-                                class="btn btn-sm btn-summary blue-text bold configurator-uppercase"
-                                onclick="configurator.nextStep(); return false;"></button>
-                    </div>
-                    <div class="col-xs-6 previous-step-div  visible-xs">
-                        <button id="previous-step-xs" type="button"
-                                class="btn text-uppercase btn-summary"
-                                onclick="configurator.previousStep(); return false;">
-                            << Cofnij
-                        </button>
-                    </div>
-                    <div class="col-xs-6 next-step-div text-right visible-xs">
-                        <button id="next-step-xs" type="button"
-                                class="btn pull-right text-uppercase btn-summary"
-                                onclick="configurator.nextStep();">
-                            Dalej >>
-                        </button>
-                    </div>
+            <div class="row owl-width">
+                <div id="step-content" class="col-sm-12">
+
                 </div>
+                <div id="background-color" class="col-sm-12">
+                    <h5 id="background-color-header" class="text-center">Wybierz kolor wnętrza</h5>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 25px">
+                <div class="col-sm-6  col-xs-12 previous-step-div  hidden-xs">
+                    <button id="previous-step" type="button"
+                            class="btn btn-sm btn-link blue-text bold configurator-uppercase"
+                            onclick="configurator.previousStep()">
+                    </button>
+                </div>
+                <div class="col-sm-6 col-xs-12 next-step-div  hidden-xs">
+                    <button id="next-step" type="button"
+                            class="btn btn-sm btn-link blue-text bold configurator-uppercase"
+                            onclick="configurator.nextStep()"></button>
+                </div>
+                <div class="col-xs-6 previous-step-div  visible-xs">
+                    <button id="previous-step-xs" type="button"
+                            class="btn text-uppercase btn-summary"
+                            onclick="configurator.previousStep()">
+                        << Cofnij
+                    </button>
+                </div>
+                <div class="col-xs-6 next-step-div text-right visible-xs">
+                    <button id="next-step-xs" type="button"
+                            class="btn pull-right text-uppercase btn-summary"
+                            onclick="configurator.nextStep()">
+                        Dalej >>
+                    </button>
+                </div>
+            </div>
+            <div class="row" style="text-align: center;">
+                <button id="reload" class="btn btn-sm btn-link blue-text" onclick="configurator.repeat()"><span
+                        class="glyphicon glyphicon-repeat"></span> Zacznij ponownie
+                </button>
             </div>
         </div>
     </div>

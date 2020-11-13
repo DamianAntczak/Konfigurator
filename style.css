@@ -8,7 +8,7 @@ img#base-img {
 }
 
 .configurator-price {
-    font-size: 15px;
+    font-size: 35px;
     font-weight: bold;
 }
 
@@ -19,10 +19,9 @@ img#base-img {
 
 div.price-info{
     padding-left: 10%;
-    z-index: 5;
+    z-index: 1000;
     position: absolute;
-    width: 100%;
-    background-color: rgba(255,255,255,0.7);
+    width: 50%;
 }
 
 div#example-visualization-info{
@@ -32,7 +31,6 @@ div#example-visualization-info{
     color: #737477;
     width: 90%;
     position: absolute;
-    min-height: 30px;
 }
 
 div.color {
@@ -74,7 +72,6 @@ div.color {
 
 .configurator-right .text-center {
     text-transform: uppercase;
-    margin-top: 0;
 }
 
 .carousel-box {
@@ -135,13 +132,13 @@ img.configurator-img {
 }
 
 .img_tkan {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     padding: 2px;
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 3px 0 3px 0;
+    margin: 3px 3px 3px 0;
     background-clip: content-box;
     text-align: center;
 }
@@ -184,21 +181,13 @@ img.configurator-img {
 .label-small {
     font-size: small;
     font-weight: normal;
-    width: 100%;
 }
 
 #step-number, #step-title{
+    font-size: 2rem;
     font-weight: 500;
-    text-transform: capitalize;
 }
 
-#step-number{
-    background-color: #efefef;
-}
-
-.blue-text{
-    color: #307bbf;
-}
 
 div.start-content{
     position: absolute;
@@ -264,7 +253,7 @@ button.btn-star{
         font-size: 10px;
     }
     .configurator-price {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     #price-vat{
@@ -282,8 +271,8 @@ button.btn-star{
         text-align: center;
     }
     .summary-btn-row{
-         margin-left: 0;
-         margin-right: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
     div.price-info{
         width: 100%;
@@ -294,10 +283,6 @@ button.btn-star{
         padding-right: 5%;
     }
 
-    div.no-padding-mobile{
-        padding-left: 0;
-        padding-right: 0;
-    }
 }
 
 .configurator-start-text{
@@ -353,7 +338,6 @@ button#reload{
     color: #616161;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 0.9rem;
 }
 
 #configurator-preview{
@@ -367,6 +351,10 @@ button#reload{
     /*background: url("img/01_BANNER_NA_KONFIGURATOR.png") no-repeat center;*/
     /*background: url("img/01_BANNER_NA_KONFIGURATOR.webp") no-repeat center;*/
     background-size: cover;
+}
+
+body, html {
+    height: 100%;
 }
 
 .discount {
@@ -425,10 +413,6 @@ button#reload{
     font-size: 0.8rem;
 }
 
-#wall-colors {
-    margin-left: -5px;
-}
-
 .wall-color-circle {
     width: 25px;
     height: 25px;
@@ -443,40 +427,4 @@ button#reload{
     border: 2px solid #4378b4;
 }
 
-body {
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #fff;
-}
 
-.menu-fixed{
-    z-index: 1000;
-}
-
-h4.title {
-    margin-top: 20px;
-}
-
-.equal {
-    display: flex;
-    display: -webkit-flex;
-    flex-wrap: wrap;
-}
-
-@media (min-width: 1025px) {
-    .row.equal {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #background-color{
-        position: absolute;
-        bottom: 0;
-    }
-
-}
-
-div.price-info {
-    z-index: 500;
-}
