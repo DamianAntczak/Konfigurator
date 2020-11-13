@@ -97,7 +97,7 @@ class Configurator {
 
     refresh(node) {
         $('#step-number').text('Krok ' + node.number);
-        $('#step-title').text(node.label + ':');
+        $('#step-title').text(node.label);
         let $previousStep = $("#previous-step");
         let $previousStepXs = $("#previous-step-xs");
         if (this.allSteps[this.stepIndex - 1] == null) {
@@ -141,7 +141,7 @@ class Configurator {
         var stepElement = $('#step-content');
         stepElement.html('');
         var divElement = stepElement.append($('<div>').addClass("configurator-base-carousel owl-carousel"));
-        var items = 1;
+        var items = 3;
         var center = false;
         var margin = 0;
         var loop = true;
@@ -164,14 +164,14 @@ class Configurator {
             responsiveBaseElement: ".configurator-right",
             responsive: {
                 0: {
-                    items: 1,
+                    items: 2,
                     center: false
                 },
                 500: {
-                    items: 1
+                    items: 3
                 },
                 770: {
-                    items: 1
+                    items: 4
                 }
             }
         });
@@ -188,17 +188,15 @@ class Configurator {
             if (options !== '') {
                 carousel.trigger('add.owl.carousel',
                     ['<div class="owl-item">' +
-                    '<div class="col-sm-3 col-sm-12">' +
+                    '<div class="col-sm-12 part-carousel-box">' +
                     '<div class="carousel-box box" node_name="' + node_name + '" onclick="configurator.onPartClick($(this))">' +
                     '<div class="square" style="background-image: url(\'img/' + node.img + '\')" />' +
                     this.showDiscount(node,startNode) +
-                    '</div></div></div>' +
-                    '<div class="col-sm-4 col-xs-12 col-sm-offset-2">' +
-                    '<div><h6 class="item-label word-wrap" style="color: #212121;">' + node.label.toUpperCase() + '</h6></div>' +
+                    '</div>' +
+                    '<div class="row"><h6 class="item-label text-center word-wrap" style="color: #212121;">' + node.label.toUpperCase() + '</h6></div>' +
                     nodePrice(node_name) +
                     options +
                     '<p class="extra-text" id="extra-text-'+node_name+'"></p>' +
-                    '</div>' +
                     '</div>' +
                     '</div>']);
 
@@ -320,7 +318,6 @@ class Configurator {
         $('#step-number').show();
         $('#step-title').show();
         $('#item-color').show();
-        $('#background-color').show();
     }
 
     onPartClick(selectedImg) {
@@ -394,8 +391,8 @@ class Configurator {
 
             $nextStep.show();
             $nextStepXs.show();
-            $nextStep.attr("onclick", "configurator.nextStep(); return false;").removeAttr("style");
-            $nextStepXs.attr("onclick", "configurator.nextStep(); return false;").removeAttr("style");
+            $nextStep.attr("onclick", "configurator.nextStep()").removeAttr("style");
+            $nextStepXs.attr("onclick", "configurator.nextStep()").removeAttr("style");
             let nextStep = configurator.graph.node(node.nextStep);
             $nextStep.text('następny krok: ' + nextStep.title + ' >>');
             $nextStepXs.text('Dalej >>');
@@ -525,12 +522,12 @@ class Configurator {
         });
 
         var html = '<div id="item-color" class="col-sm-12">' +
-            '<h6 class="blue-text">Wybierz tkaninę</h6>' +
+            '<h5 class="text-center">Wybierz tkaninę</h5>' +
             '<div class="row">';
 
         html += '<div class="col-sm-12">';
         // html += '<div class="center-block">';
-        addImageToDom(g1Colors, 'I', 'fabric_group_2');
+        addImageToDom(g1Colors, 'I', 'fabric_group_1');
         addImageToDom(g2Colors, 'II', 'fabric_group_2');
         // html += '</div>';
         html += '</div>';
@@ -541,7 +538,7 @@ class Configurator {
         function addImageToDom(colors, group, style) {
             // html += '<div class="row">';
             var counter = 0;
-            html += '<div class="col-md-5 col-sm-6 col-xs-12" style="padding-left: 0;">';
+            html += '<div class="col-sm-6 col-xs-12">';
             html += '<div class="center-block ' + style + '">';
             var i;
             for (i = 0; i < colors.length; i++) {
@@ -551,7 +548,7 @@ class Configurator {
                     html += '<span class="bold text-uppercase" style="font-size: 11px;">' + group + ' grupa</span>';
                 }
                 html += '<div color="' + color.node + '" name="' + color.name + '" onclick="configurator.onColorSelect($(this))" class="tiles img_tkan" style="background-image: url(\'' + color.url + '\')" ></div>';
-                html += '<span class="bold text-uppercase" style="font-size: 6px;">' + color.name + '</span>';
+                html += '<span class="bold text-uppercase" style="font-size: 8px;">' + color.name + '</span>';
                 html += '</div>';
             }
             html += '</div>';
@@ -577,11 +574,11 @@ class Configurator {
             {color:"#262626", bcg: "12.jpg"}];
 
         var html =
-            '<div id="wall-colors" class="row">';
-            colors.forEach(color => {
-                html += '<div class="wall-color-circle" style="background-color: ' + color.color +'" onclick="configurator.onBackgroundColorChange(\'' + color.bcg +'\')"></div>';
-            });
-            html += '</div>';
+            '<div id="wall-colors" class="row text-center">';
+        colors.forEach(color => {
+            html += '<div class="wall-color-circle" style="background-color: ' + color.color +'" onclick="configurator.onBackgroundColorChange(\'' + color.bcg +'\')"></div>';
+        });
+        html += '</div>';
         return html;
     }
 
@@ -607,12 +604,12 @@ class Configurator {
         });
 
         var html = '<div id="item-color" class="col-sm-12">' +
-            '<h5 class="text-left blue-text">Wybierz pokrowiec</h5>' +
+            '<h5 class="text-center">Wybierz pokrowiec</h5>' +
             '<div class="row">';
 
         html += '<div class="col-sm-12">';
         // html += '<div class="center-block">';
-        html += '<div class="center-block" style="text-align: left;font-size: 9px;">';
+        html += '<div class="center-block" style="text-align: center;font-size: 9px;">';
         if (g1Colors.length > 0) {
             addImageToDom(g1Colors, g1Colors[0].name);
         }
@@ -747,7 +744,6 @@ class Configurator {
         $('#item-color').hide();
         $('#next-step').hide();
         $('#next-step-xs').hide();
-        $('#background-color').hide();
         // $('#skip-step').hide();
         $('#example-visualization-info').html('');
 
@@ -1063,18 +1059,21 @@ class Configurator {
 }
 
 
-$(document).ready(function () {
-        var Graph = graphlib.Graph;
-        g = new Graph();
+$(document)
 
-        $.when(
-            $.getScript("graph.js"),
-            $.Deferred(function (deferred) {
-                $(deferred.resolve);
-            })
-        ).done(function () {
-            configurator = new Configurator(g);
-            configurator.start();
-        });
-    }
-);
+    .ready(
+        function () {
+            var Graph = graphlib.Graph;
+            g = new Graph();
+
+            $.when(
+                $.getScript("graph.js"),
+                $.Deferred(function (deferred) {
+                    $(deferred.resolve);
+                })
+            ).done(function () {
+                configurator = new Configurator(g);
+            });
+        }
+    )
+;

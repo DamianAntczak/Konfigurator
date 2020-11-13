@@ -3739,50 +3739,50 @@ g.setNode("naroznik_srebro_16", {
 g.setNode("ploza_buk_140", {
     label: '140',
     width: 140,
-    price: {g1: 218.4, g2: 218.4},
+    price: {g1: 218, g2: 218},
     nextStep: 'bb_step_typ_materaca'
 });
 g.setNode("ploza_buk_160", {
     label: '160',
     width: 160,
-    price: {g1: 237.6, g2: 237.6},
+    price: {g1: 238, g2: 238},
     nextStep: 'bb_step_typ_materaca'
 });
 g.setNode("ploza_buk_180", {
     label: '180',
     width: 180,
-    price: {g1: 259.2, g2: 259.2},
+    price: {g1: 259, g2: 259},
     nextStep: 'bb_step_typ_materaca'
 });
 g.setNode("ploza_buk_200", {
     label: '200',
     width: 200,
-    price: {g1: 283.2, g2: 283.2},
+    price: {g1: 2*142, g2: 2*142},
     nextStep: 'bb_step_typ_materaca'
 });
 
 g.setNode("ploza_wenge_140", {
     label: '140',
     width: 140,
-    price: {g1: 218.4, g2: 218.4},
+    price: {g1: 218, g2: 218},
     nextStep: 'bb_step_typ_materaca'
 });
 g.setNode("ploza_wenge_160", {
     label: '160',
     width: 160,
-    price: {g1: 237.6, g2: 237.6},
+    price: {g1: 238, g2: 238},
     nextStep: 'bb_step_typ_materaca'
 });
 g.setNode("ploza_wenge_180", {
     label: '180',
     width: 180,
-    price: {g1: 259.2, g2: 259.2},
+    price: {g1: 259, g2: 259},
     nextStep: 'bb_step_typ_materaca'
 });
 g.setNode("ploza_wenge_200", {
     label: '200',
     width: 200,
-    price: {g1: 283.2, g2: 283.2},
+    price: {g1: 2*142, g2: 2*142},
     nextStep: 'bb_step_typ_materaca'
 });
 
@@ -3807,7 +3807,7 @@ g.setNode("ploza_dab_180", {
 g.setNode("ploza_dab_200", {
     label: '200',
     width: 200,
-    price: {g1: 612, g2: 612},
+    price: {g1: 2*306, g2: 2*306},
     nextStep: 'bb_step_typ_materaca'
 });
 
@@ -8480,7 +8480,7 @@ g.setEdge("legs", "trojkat_skosny_miedz");
 g.setEdge("legs", "trojkat_skosny_srebro");
 g.setEdge("legs", "walek_srebro");
 g.setEdge("legs", "walek_miedz");
-g.setEdge("legs", "walek_srebro");
+g.setEdge("legs", "walek_czern");
 g.setEdge("legs", "kielich_czern");
 g.setEdge("legs", "kielich_miedz");
 g.setEdge("legs", "kielich_srebro");
