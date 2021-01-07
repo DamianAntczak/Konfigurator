@@ -1057,23 +1057,3 @@ class Configurator {
         return title.charAt(0).toUpperCase() + title.substr(1);
     }
 }
-
-
-$(document)
-
-    .ready(
-        function () {
-            var Graph = graphlib.Graph;
-            g = new Graph();
-
-            $.when(
-                $.getScript("graph.js"),
-                $.Deferred(function (deferred) {
-                    $(deferred.resolve);
-                })
-            ).done(function () {
-                configurator = new Configurator(g);
-            });
-        }
-    )
-;

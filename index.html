@@ -6,9 +6,9 @@
     <meta name="description" content="Stwórz łóżko w swoim własnym stylu!" />
     <title>Konfigurator</title>
     <link rel="shortcut icon" type="image/png" href="/favicon.png" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" async></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" async></script>
-    <script src="https://hilding.pl/viewHilding/js/owl.carousel.js" async></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://hilding.pl/viewHilding/js/owl.carousel.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.54/pdfmake.min.js" async></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.54/vfs_fonts.js" async></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" async
@@ -118,9 +118,7 @@
         </div>
     </div>
 </section>
-
-</body>
-<script>
+<script type="text/javascript">
     function isIE() {
         ua = navigator.userAgent;
         /* MSIE used to detect old browsers and Trident used to newer ones*/
@@ -132,5 +130,23 @@
         alert('Twoja przeglądarka nie obsługuje konfiguratora. Prosimy skorzystać z nowszej przeglądarki.');
         window.history.back();
     }
+
+    $(document)
+        .ready(
+            function () {
+                var Graph = graphlib.Graph;
+                g = new Graph();
+
+                $.when(
+                    $.getScript("graph.js"),
+                    $.Deferred(function (deferred) {
+                        $(deferred.resolve);
+                    })
+                ).done(function () {
+                    configurator = new Configurator(g);
+                });
+            }
+        );
 </script>
+</body>
 </html>
