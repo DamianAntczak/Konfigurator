@@ -3410,7 +3410,7 @@ g.setNode("t_ladylike_200_115", {
 g.setNode("legs", {
     node: 'legs',
     title: 'nóżki',
-    label: 'wybierz nożki',
+    label: 'wybierz nóżki',
     number: 3,
     zIndex: 7,
     optionsFilter: true
@@ -3945,7 +3945,7 @@ g.setNode("step_4", {
     node: 'step_4',
     title: 'materac',
     label: 'wybierz materac',
-    number: 3,
+    number: 4,
     zIndex: 25,
     skipToNode: 'step_5',
     optionsFilter: true,
@@ -6375,7 +6375,7 @@ g.setNode("bp_materac_flamenco_tap_200_200", {
 
 g.setNode("t_materac", {
     node: 't_materac',
-    title: 'Materac',
+    title: 'materac',
     label: 'wybierz materac',
     number: 4,
     zIndex: 25,
@@ -7118,6 +7118,12 @@ g.setNode("t_materac_lambada_180_200", {
     label: '180/200',
     width: 180,
     price: {g1: 4249, g2: 4249},
+    nextStep: 'skrzynia_posciel_big'
+});
+g.setNode("t_materac_lambada_200_200", {
+    label: '200/200',
+    width: 200,
+    price: {g1: 2*2089, g2: 2*2089},
     nextStep: 'skrzynia_posciel_big'
 });
 
