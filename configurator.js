@@ -480,6 +480,9 @@ class Configurator {
         if (mainNode.img === 'empty.png') {
             labelText = "Wybierz";
         }
+        if (mainNode.label === "Pojemnik na pościel") {
+            labelText = "Czy pojemnik na pościel?"
+        }
         if (successors.length > 0) {
             var sb = '<div class="form-group">';
             sb += '<label class="label-small" for="select-' + node_name + '">' + labelText + '</label>';
