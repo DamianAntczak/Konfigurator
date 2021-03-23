@@ -7642,7 +7642,7 @@ g.setNode("skrzynia_posciel_small", {
     label: 'pojemnik na pościel',
     number: 5,
     zIndex: 35,
-    skipToNode: 'summary',
+    skipToNode: 'frame_no_box_big',
     optionsFilter: true
 });
 
@@ -7658,7 +7658,7 @@ g.setNode("skrzynia_posciel_90", {
     label: 'pojemnik na pościel',
     number: 5,
     zIndex: 35,
-    skipToNode: 'summary',
+    skipToNode: 'frame_no_box_big',
     optionsFilter: true
 });
 
@@ -7719,7 +7719,7 @@ g.setNode("skrzynia_posciel_urban", {
     label: 'pojemnik na pościel',
     number: 5,
     zIndex: 35,
-    skipToNode: 'summary',
+    skipToNode: 'frame_no_box_big',
     optionsFilter: true
 });
 
@@ -7792,7 +7792,7 @@ g.setNode("frame_double_lift_200", {label: '200/200',width: 200, price: {g1: 749
 
 
 g.setEdge("frame_with_box", "frame_family_expert");
-g.setEdge("frame_with_box", "frame_classic_lift");
+g.setEdge("frame_with_box", "frame_family_classic");
 g.setEdge("frame_with_box", "frame_double_lift");
 
 g.setEdge("frame_family_expert", "frame_family_expert_90");
