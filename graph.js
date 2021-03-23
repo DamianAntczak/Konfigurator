@@ -7772,17 +7772,23 @@ g.setNode("frame_double_lift", {
     render: 'ramiak.png',
 });
 
-g.setNode("frame_family_expert_90", {label: '90/200',width: 90, price: {g1: 459, g2: 459}, nextStep: 'summary'});
-g.setNode("frame_family_expert_140", {label: '140/200',width: 140, price: {g1: 2*449, g2: 2*449}, nextStep: 'summary'});
-g.setNode("frame_family_expert_160", {label: '160/200',width: 160, price: {g1: 2*449, g2: 2*449}, nextStep: 'summary'});
-g.setNode("frame_family_expert_180", {label: '180/200',width: 180, price: {g1: 459*2, g2: 459*2}, nextStep: 'summary'});
-g.setNode("frame_family_expert_200", {label: '200/200',width: 200, price: {g1: 2*469, g2: 2*469}, nextStep: 'summary'});
+g.setNode("frame_family_expert_90", {label: '90/200',width: 90, price: {g1: 389, g2: 389}, nextStep: 'summary'});
+g.setNode("frame_family_expert_140", {label: '140/200',width: 140, price: {g1: 529, g2: 529}, nextStep: 'summary'});
+g.setNode("frame_family_expert_160", {label: '160/200',width: 160, price: {g1: 2*359, g2: 2*359}, nextStep: 'summary'});
+g.setNode("frame_family_expert_180", {label: '180/200',width: 180, price: {g1: 2*389, g2: 2*389}, nextStep: 'summary'});
+g.setNode("frame_family_expert_200", {label: '200/200',width: 200, price: {g1: 2*399, g2: 2*399}, nextStep: 'summary'});
 
-g.setNode("frame_family_classic_90", {label: '90/200',width: 90, price: {g1: 459, g2: 459}, nextStep: 'summary'});
+g.setNode("frame_family_classic_90", {label: '90/200',width: 90, price: {g1: 239, g2: 239}, nextStep: 'summary'});
 g.setNode("frame_family_classic_140", {label: '140/200',width: 140, price: {g1: 2*449, g2: 2*449}, nextStep: 'summary'});
 g.setNode("frame_family_classic_160", {label: '160/200',width: 160, price: {g1: 2*449, g2: 2*449}, nextStep: 'summary'});
 g.setNode("frame_family_classic_180", {label: '180/200',width: 180, price: {g1: 459*2, g2: 459*2}, nextStep: 'summary'});
 g.setNode("frame_family_classic_200", {label: '200/200',width: 200, price: {g1: 2*469, g2: 2*469}, nextStep: 'summary'});
+
+g.setNode("frame_lift_90", {label: '90/200',width: 90, price: {g1: 459, g2: 459}, nextStep: 'summary'});
+g.setNode("frame_lift_140", {label: '140/200',width: 140, price: {g1: 2*449, g2: 2*449}, nextStep: 'summary'});
+g.setNode("frame_lift_160", {label: '160/200',width: 160, price: {g1: 2*449, g2: 2*449}, nextStep: 'summary'});
+g.setNode("frame_lift_180", {label: '180/200',width: 180, price: {g1: 2*459, g2: 2*459}, nextStep: 'summary'});
+g.setNode("frame_lift_200", {label: '200/200',width: 200, price: {g1: 2*469, g2: 2*469}, nextStep: 'summary'});
 
 g.setNode("frame_double_lift_90", {label: '90/200',width: 90, price: {g1: 568, g2: 568}, nextStep: 'summary'});
 g.setNode("frame_double_lift_140", {label: '140/200',width: 140, price: {g1: 639, g2: 639}, nextStep: 'summary'});
@@ -7806,6 +7812,12 @@ g.setEdge("frame_family_classic", "frame_family_classic_140");
 g.setEdge("frame_family_classic", "frame_family_classic_160");
 g.setEdge("frame_family_classic", "frame_family_classic_180");
 g.setEdge("frame_family_classic", "frame_family_classic_200");
+
+g.setEdge("frame_lift", "frame_lift_90");
+g.setEdge("frame_lift", "frame_lift_140");
+g.setEdge("frame_lift", "frame_lift_160");
+g.setEdge("frame_lift", "frame_lift_180");
+g.setEdge("frame_lift", "frame_lift_200");
 
 g.setEdge("frame_double_lift", "frame_double_lift_90");
 g.setEdge("frame_double_lift", "frame_double_lift_140");
@@ -7889,14 +7901,21 @@ g.setNode("frame_double_lift", {
     render: 'ramiak.png',
 });
 
+g.setNode("frame_lift", {
+    label: 'Lift',
+    img: '/stelaze/family_lift.jpg',
+    render: 'ramiak.png',
+});
+
 g.setNode("frame_family_expert_140", {label: '140/200',width: 140, price: {g1: 529, g2: 529}, nextStep: 'summary'});
 g.setNode("frame_family_expert_160", {label: '160/200',width: 160, price: {g1: 2*359, g2: 2*359}, nextStep: 'summary'});
 g.setNode("frame_family_expert_180", {label: '180/200',width: 180, price: {g1: 2*389, g2: 2*389}, nextStep: 'summary'});
 g.setNode("frame_family_expert_200", {label: '200/200',width: 200, price: {g1: 2*399, g2: 2*399}, nextStep: 'summary'});
 
-g.setNode("frame_family_moto_160", {label: '160/200',width: 160, price: {g1: 2198, g2: 2198}, nextStep: 'summary'});
-g.setNode("frame_family_moto_180", {label: '180/200',width: 180, price: {g1: 2278, g2: 2278}, nextStep: 'summary'});
-g.setNode("frame_family_moto_200", {label: '200/200',width: 200, price: {g1: 2398, g2: 2398}, nextStep: 'summary'});
+g.setNode("frame_family_moto_90", {label: '90/200',width: 90, price: {g1: 1209, g2: 1209}, nextStep: 'summary'});
+g.setNode("frame_family_moto_160", {label: '160/200',width: 160, price: {g1: 1169, g2: 1169}, nextStep: 'summary'});
+g.setNode("frame_family_moto_180", {label: '180/200',width: 180, price: {g1: 1209, g2: 1209}, nextStep: 'summary'});
+g.setNode("frame_family_moto_200", {label: '200/200',width: 200, price: {g1: 1279, g2: 1279}, nextStep: 'summary'});
 
 g.setNode("frame_family_classic_90", {label: '90/200',width: 90, price: {g1: 239, g2: 239}, nextStep: 'summary'});
 g.setNode("frame_family_classic_140", {label: '140/200',width: 140, price: {g1: 379, g2: 379}, nextStep: 'summary'});
@@ -7904,9 +7923,11 @@ g.setNode("frame_family_classic_160", {label: '160/200',width: 160, price: {g1: 
 g.setNode("frame_family_classic_180", {label: '180/200',width: 180, price: {g1: 2*239, g2: 2*239}, nextStep: 'summary'});
 g.setNode("frame_family_classic_200", {label: '200/200',width: 200, price: {g1: 2*259, g2: 2*259}, nextStep: 'summary'});
 
+g.setNode("frame_select_expert_90", {label: '90/200',width: 90, price: {g1: 719, g2: 719}, nextStep: 'summary'});
 g.setNode("frame_select_expert_160", {label: '160/200',width: 160, price: {g1: 2*699, g2: 2*699}, nextStep: 'summary'});
 g.setNode("frame_select_expert_180", {label: '180/200',width: 180, price: {g1: 2*719, g2: 2*719}, nextStep: 'summary'});
 
+g.setNode("frame_select_moto_90", {label: '160/200',width: 160, price: {g1: 2019, g2: 2019}, nextStep: 'summary'});
 g.setNode("frame_select_moto_160", {label: '160/200',width: 160, price: {g1: 2*1969, g2: 2*1969}, nextStep: 'summary'});
 g.setNode("frame_select_moto_180", {label: '180/200',width: 180, price: {g1: 2*2019, g2: 2*2019}, nextStep: 'summary'});
 
@@ -7917,7 +7938,6 @@ g.setNode("frame_select_classic_180", {label: '180/200',width: 180, price: {g1: 
 g.setNode("frame_sam_90", {label: '90/200',width: 90, price: {g1: 169, g2: 169}, nextStep: 'summary'});
 g.setNode("frame_sam_140", {label: '140/200',width: 140, price: {g1: 239, g2: 239}, nextStep: 'summary'});
 g.setNode("frame_sam_160", {label: '160/200',width: 160, price: {g1: 279, g2: 279}, nextStep: 'summary'});
-g.setNode("frame_sam_180", {label: '180/200',width: 180, price: {g1: 2*169, g2:  2*169}, nextStep: 'summary'});
 
 g.setEdge("frame_no_box", "frame_family_expert");
 g.setEdge("frame_no_box", "frame_family_moto");
@@ -7927,6 +7947,17 @@ g.setEdge("frame_no_box", "frame_family_classic");
 g.setEdge("frame_no_box", "frame_select_classic");
 g.setEdge("frame_no_box", "frame_sam");
 g.setEdge("frame_no_box", "frame_double_lift");
+g.setEdge("frame_no_box", "frame_lift");
+
+g.setEdge("frame_no_box_90", "frame_sam");
+g.setEdge("frame_no_box_90", "frame_family_classic");
+g.setEdge("frame_no_box_90", "frame_family_expert");
+g.setEdge("frame_no_box_90", "frame_family_moto");
+g.setEdge("frame_no_box_90", "frame_select_classic");
+g.setEdge("frame_no_box_90", "frame_select_expert");
+g.setEdge("frame_no_box_90", "frame_select_moto");
+g.setEdge("frame_no_box_90", "frame_lift");
+
 
 
 g.setEdge("frame", "frame_family_expert");
@@ -7938,13 +7969,13 @@ g.setEdge("frame", "frame_select_classic");
 g.setEdge("frame", "frame_sam");
 g.setEdge("frame", "frame_double_lift");
 
+g.setEdge("frame_no_box_big", "frame_sam");
+g.setEdge("frame_no_box_big", "frame_family_classic");
 g.setEdge("frame_no_box_big", "frame_family_expert");
 g.setEdge("frame_no_box_big", "frame_family_moto");
+g.setEdge("frame_no_box_big", "frame_select_classic");
 g.setEdge("frame_no_box_big", "frame_select_expert");
 g.setEdge("frame_no_box_big", "frame_select_moto");
-g.setEdge("frame_no_box_big", "frame_family_classic");
-g.setEdge("frame_no_box_big", "frame_select_classic");
-g.setEdge("frame_no_box_big", "frame_sam");
 g.setEdge("frame_no_box_big", "frame_double_lift");
 
 g.setEdge("frame_family_expert", "frame_family_expert_140");
@@ -7952,6 +7983,7 @@ g.setEdge("frame_family_expert", "frame_family_expert_160");
 g.setEdge("frame_family_expert", "frame_family_expert_180");
 g.setEdge("frame_family_expert", "frame_family_expert_200");
 
+g.setEdge("frame_family_moto", "frame_family_moto_90");
 g.setEdge("frame_family_moto", "frame_family_moto_160");
 g.setEdge("frame_family_moto", "frame_family_moto_180");
 g.setEdge("frame_family_moto", "frame_family_moto_200");
@@ -7962,9 +7994,11 @@ g.setEdge("frame_family_classic", "frame_family_classic_160");
 g.setEdge("frame_family_classic", "frame_family_classic_180");
 g.setEdge("frame_family_classic", "frame_family_classic_200");
 
+g.setEdge("frame_select_expert", "frame_select_expert_90");
 g.setEdge("frame_select_expert", "frame_select_expert_160");
 g.setEdge("frame_select_expert", "frame_select_expert_180");
 
+g.setEdge("frame_select_moto", "frame_select_moto_90");
 g.setEdge("frame_select_moto", "frame_select_moto_160");
 g.setEdge("frame_select_moto", "frame_select_moto_180");
 
@@ -7975,7 +8009,6 @@ g.setEdge("frame_select_classic", "frame_select_classic_180");
 g.setEdge("frame_sam", "frame_sam_90");
 g.setEdge("frame_sam", "frame_sam_140");
 g.setEdge("frame_sam", "frame_sam_160");
-g.setEdge("frame_sam", "frame_sam_180");
 
 g.setNode("frame_no_box_small", {
     node: 'frame_no_box_small',
@@ -7986,18 +8019,20 @@ g.setNode("frame_no_box_small", {
     skipToNode: 'summary',
     optionsFilter: true
 });
+
+g.setEdge("frame_no_box_small", "frame_family_expert");
+g.setEdge("frame_no_box_small", "frame_family_moto");
+g.setEdge("frame_no_box_small", "frame_select_expert");
+g.setEdge("frame_no_box_small", "frame_select_moto");
 g.setEdge("frame_no_box_small", "frame_family_classic");
 g.setEdge("frame_no_box_small", "frame_select_classic");
-g.setEdge("frame_no_box_small", "frame_family_expert");
+g.setEdge("frame_no_box_small", "frame_sam");
 g.setEdge("frame_no_box_small", "frame_double_lift");
+g.setEdge("frame_no_box_small", "frame_lift");
 
 g.setEdge("frame_with_box_90", "frame_family_expert");
 
-g.setEdge("frame_no_box_90", "frame_family_classic");
-g.setEdge("frame_no_box_90", "frame_select_classic");
-g.setEdge("frame_no_box_90", "frame_sam");
-g.setEdge("frame_no_box_90", "frame_double_lift");
-g.setEdge("frame_no_box_90", "frame_family_expert");
+
 
 g.setNode("otomana_140", {label: '140/200', price: {g1: 1599, g2: 1849}, nextStep: 'summary'});
 g.setNode("otomana_160", {label: '160/200', price: {g1: 1699, g2: 2099}, nextStep: 'summary'});
