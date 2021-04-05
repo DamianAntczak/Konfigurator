@@ -7603,9 +7603,9 @@ g.setNode("otomana", {
     render: 'transparent.png'
 });
 
-g.setNode("otomana_140", {label: '140/200', price: {g1: 1599, g2: 1849}, nextStep: 'summary'});
-g.setNode("otomana_160", {label: '160/200', price: {g1: 1699, g2: 2099}, nextStep: 'summary'});
-g.setNode("otomana_180", {label: '180/200', price: {g1: 1899, g2: 2169}, nextStep: 'summary'});
+g.setNode("otomana_140", {label: '140/200', price: {g1: 1699, g2: 1979}, nextStep: 'summary'});
+g.setNode("otomana_160", {label: '160/200', price: {g1: 1819, g2: 2249}, nextStep: 'summary'});
+g.setNode("otomana_180", {label: '180/200', price: {g1: 2029, g2: 2319}, nextStep: 'summary'});
 
 
 g.setNode("skrzynia_posciel_big", {
