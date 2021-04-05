@@ -179,14 +179,14 @@ g.setNode("kontynent_colors_7", {});
 
 g.setNode("kontynent_novel", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'kontynent_novel',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/bazy/baza_kontynentalna_h31_novel13.png'
 });
 g.setNode("kontynent_roko", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'kontynent_roko',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/bazy/baza_kontynentalna_h31_roko08.png'
@@ -201,14 +201,14 @@ g.setNode("kontynent_aspen", {
 
 g.setNode("kontynent_river", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'kontynent_river',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/bazy/baza_kontynentalna_h31_river02.png'
 });
 g.setNode("kontynent_eren", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'kontynent_eren',
     url: './img/tkaniny/eren_07.jpg',
     render: '/bazy/baza_kontynentalna_h31_eren07.png'
@@ -222,7 +222,7 @@ g.setNode("kontynent_ontario", {
 });
 g.setNode("kontynent_riviera", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'kontynent_riviera',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/bazy/baza_kontynentalna_h31_riviera38.png'
@@ -231,14 +231,14 @@ g.setNode("kontynent_riviera", {
 g.setNode("kontynent_colors_7", {});
 g.setNode("kontynent_novel", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'kontynent_novel',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/bazy/baza_kontynentalna_h31_novel13.png'
 });
 g.setNode("kontynent_roko", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'kontynent_roko',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/bazy/baza_kontynentalna_h31_roko08.png'
@@ -253,14 +253,14 @@ g.setNode("kontynent_aspen", {
 
 g.setNode("kontynent_river", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'kontynent_river',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/bazy/baza_kontynentalna_h31_river02.png'
 });
 g.setNode("kontynent_eren", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'kontynent_eren',
     url: './img/tkaniny/eren_07.jpg',
     render: '/bazy/baza_kontynentalna_h31_eren07.png'
@@ -274,7 +274,7 @@ g.setNode("kontynent_ontario", {
 });
 g.setNode("kontynent_riviera", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'kontynent_riviera',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/bazy/baza_kontynentalna_h31_riviera38.png'
@@ -283,14 +283,14 @@ g.setNode("kontynent_riviera", {
 g.setNode("kontynent_szuflada_colors_7", {});
 g.setNode("kontynent_szuflada_novel", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'kontynent_szuflada_novel',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/bazy/baza_kontynentalna_szuflady_h34_novel13.png'
 });
 g.setNode("kontynent_szuflada_roko", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'kontynent_szuflada_roko',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/bazy/baza_kontynentalna_szuflady_h34_roko08.png'
@@ -305,14 +305,14 @@ g.setNode("kontynent_szuflada_aspen", {
 
 g.setNode("kontynent_szuflada_river", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'kontynent_szuflada_river',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/bazy/baza_kontynentalna_szuflady_h34_river02.png'
 });
 g.setNode("kontynent_szuflada_eren", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'kontynent_szuflada_eren',
     url: './img/tkaniny/eren_07.jpg',
     render: '/bazy/baza_kontynentalna_szuflady_h34_eren07.png'
@@ -326,7 +326,7 @@ g.setNode("kontynent_szuflada_ontario", {
 });
 g.setNode("kontynent_szuflada_riviera", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'kontynent_szuflada_riviera',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/bazy/baza_kontynentalna_szuflady_h34_riviera38.png'
@@ -335,14 +335,14 @@ g.setNode("kontynent_szuflada_riviera", {
 g.setNode("base_box_colors_7", {});
 g.setNode("base_box_novel", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'base_box_novel',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/bazy/baza_base_box_h31_novel13.png'
 });
 g.setNode("base_box_roko", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'base_box_roko',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/bazy/baza_base_box_h31_roko08.png'
@@ -357,14 +357,14 @@ g.setNode("base_box_aspen", {
 
 g.setNode("base_box_river", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'base_box_river',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/bazy/baza_base_box_h31_river02.png'
 });
 g.setNode("base_box_eren", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'base_box_eren',
     url: './img/tkaniny/eren_07.jpg',
     render: '/bazy/baza_base_box_h31_eren07.png'
@@ -378,7 +378,7 @@ g.setNode("base_box_ontario", {
 });
 g.setNode("base_box_riviera", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'base_box_riviera',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/bazy/baza_base_box_h31_riviera38.png'
@@ -388,14 +388,14 @@ g.setNode("base_podnoszony_colors_7", {});
 
 g.setNode("base_podnoszony_novel", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'base_podnoszony_novel',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/bazy/baza_box_podnoszony_h31_novel13.png'
 });
 g.setNode("base_podnoszony_roko", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'base_podnoszony_roko',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/bazy/baza_box_podnoszony_h31_roko08.png'
@@ -410,14 +410,14 @@ g.setNode("base_podnoszony_aspen", {
 
 g.setNode("base_podnoszony_river", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'base_podnoszony_river',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/bazy/baza_box_podnoszony_h31_river02.png'
 });
 g.setNode("base_podnoszony_eren", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'base_podnoszony_eren',
     url: './img/tkaniny/eren_07.jpg',
     render: '/bazy/baza_box_podnoszony_h31_eren07.png'
@@ -431,7 +431,7 @@ g.setNode("base_podnoszony_ontario", {
 });
 g.setNode("base_podnoszony_riviera", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'base_podnoszony_riviera',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/bazy/baza_box_podnoszony_h31_riviera38.png'
@@ -440,7 +440,7 @@ g.setNode("base_podnoszony_riviera", {
 g.setNode("tapicerowana_colors_7", {});
 g.setNode("tapicerowana_novel", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'tapicerowana_novel',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/bazy/baza_tapicerowana_h34_novel13.png',
@@ -448,7 +448,7 @@ g.setNode("tapicerowana_novel", {
 });
 g.setNode("tapicerowana_roko", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'tapicerowana_roko',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/bazy/baza_tapicerowana_h34_roko08.png',
@@ -464,7 +464,7 @@ g.setNode("tapicerowana_aspen", {
 });
 g.setNode("tapicerowana_river", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'tapicerowana_river',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/bazy/baza_tapicerowana_h34_river02.png',
@@ -472,7 +472,7 @@ g.setNode("tapicerowana_river", {
 });
 g.setNode("tapicerowana_eren", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'tapicerowana_eren',
     url: './img/tkaniny/eren_07.jpg',
     render: '/bazy/baza_tapicerowana_h34_eren07.png',
@@ -488,7 +488,7 @@ g.setNode("tapicerowana_ontario", {
 });
 g.setNode("tapicerowana_riviera", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'tapicerowana_riviera',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/bazy/baza_tapicerowana_h34_riviera38.png',
@@ -500,14 +500,14 @@ g.setNode("tapicerowana_riviera", {
 g.setNode("urban_colors_7", {});
 g.setNode("urban_novel", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'urban_novel',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/wezglowia/wezglowie_urban_95_novel13.png'
 });
 g.setNode("urban_roko", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'urban_roko',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/wezglowia/wezglowie_urban_95_roko08.png'
@@ -521,14 +521,14 @@ g.setNode("urban_aspen", {
 });
 g.setNode("urban_river", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'urban_river',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/wezglowia/wezglowie_urban_95_river02.png'
 });
 g.setNode("urban_eren", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'urban_eren',
     url: './img/tkaniny/eren_07.jpg',
     render: '/wezglowia/wezglowie_urban_95_eren07.png'
@@ -542,7 +542,7 @@ g.setNode("urban_ontario", {
 });
 g.setNode("urban_riviera", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'urban_riviera',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/wezglowia/wezglowie_urban_95_riviera38.png'
@@ -551,14 +551,14 @@ g.setNode("urban_riviera", {
 g.setNode("preppy_colors_7", {});
 g.setNode("preppy_novel", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'preppy_novel',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/wezglowia/wezglowie_preppy_95_novel13.png'
 });
 g.setNode("preppy_roko", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'preppy_roko',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/wezglowia/wezglowie_preppy_95_roko08.png'
@@ -572,14 +572,14 @@ g.setNode("preppy_aspen", {
 });
 g.setNode("preppy_river", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'preppy_river',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/wezglowia/wezglowie_preppy_95_river02.png'
 });
 g.setNode("preppy_eren", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'preppy_eren',
     url: './img/tkaniny/eren_07.jpg',
     render: '/wezglowia/wezglowie_preppy_95_eren07.png'
@@ -593,7 +593,7 @@ g.setNode("preppy_ontario", {
 });
 g.setNode("preppy_riviera", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'preppy_riviera',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/wezglowia/wezglowie_preppy_95_riviera38.png'
@@ -602,7 +602,7 @@ g.setNode("preppy_riviera", {
 g.setNode("glamour_colors_7", {});
 g.setNode("glamour_novel", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'glamour_novel',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/wezglowia/wezglowie_glamour_115_novel13.png',
@@ -610,7 +610,7 @@ g.setNode("glamour_novel", {
 });
 g.setNode("glamour_roko", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'glamour_roko',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/wezglowia/wezglowie_glamour_115_roko08.png',
@@ -626,7 +626,7 @@ g.setNode("glamour_aspen", {
 });
 g.setNode("glamour_river", {
     g: 1,
-    name: 'river 2',
+    name: 'river 01',
     node: 'glamour_river',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/wezglowia/wezglowie_glamour_115_river02.png',
@@ -634,7 +634,7 @@ g.setNode("glamour_river", {
 });
 g.setNode("glamour_eren", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'glamour_eren',
     url: './img/tkaniny/eren_07.jpg',
     render: '/wezglowia/wezglowie_glamour_115_eren07.png',
@@ -650,7 +650,7 @@ g.setNode("glamour_ontario", {
 });
 g.setNode("glamour_riviera", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'glamour_riviera',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/wezglowia/wezglowie_glamour_115_riviera38.png',
@@ -661,7 +661,7 @@ g.setNode("glamour_riviera", {
 g.setNode("vintage_colors_7", {});
 g.setNode("vintage_novel", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'vintage_novel',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/wezglowia/wezglowie_vintage_95_novel13.png',
@@ -669,7 +669,7 @@ g.setNode("vintage_novel", {
 });
 g.setNode("vintage_roko", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'vintage_roko',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/wezglowia/wezglowie_vintage_95_roko08.png',
@@ -685,7 +685,7 @@ g.setNode("vintage_aspen", {
 });
 g.setNode("vintage_river", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'vintage_river',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/wezglowia/wezglowie_vintage_95_river02.png',
@@ -693,7 +693,7 @@ g.setNode("vintage_river", {
 });
 g.setNode("vintage_eren", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'vintage_eren',
     url: './img/tkaniny/eren_07.jpg',
     render: '/wezglowia/wezglowie_vintage_95_eren07.png',
@@ -709,7 +709,7 @@ g.setNode("vintage_ontario", {
 });
 g.setNode("vintage_riviera", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'vintage_riviera',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/wezglowia/wezglowie_vintage_95_riviera38.png',
@@ -719,14 +719,14 @@ g.setNode("vintage_riviera", {
 g.setNode("eclectic_colors_7", {});
 g.setNode("eclectic_novel", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'eclectic_novel',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/wezglowia/wezglowie_eclectic_95_novel13.png'
 });
 g.setNode("eclectic_roko", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'eclectic_roko',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/wezglowia/wezglowie_eclectic_95_roko08.png'
@@ -740,14 +740,14 @@ g.setNode("eclectic_aspen", {
 });
 g.setNode("eclectic_river", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'eclectic_river',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/wezglowia/wezglowie_eclectic_95_river02.png'
 });
 g.setNode("eclectic_eren", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'eclectic_eren',
     url: './img/tkaniny/eren_07.jpg',
     render: '/wezglowia/wezglowie_eclectic_95_eren07.png'
@@ -761,7 +761,7 @@ g.setNode("eclectic_ontario", {
 });
 g.setNode("eclectic_riviera", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'eclectic_riviera',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/wezglowia/wezglowie_eclectic_95_riviera38.png'
@@ -770,14 +770,14 @@ g.setNode("eclectic_riviera", {
 g.setNode("ladylike_colors_7", {});
 g.setNode("ladylike_novel", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'ladylike_novel',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/wezglowia/wezglowie_ladylike_115_novel13.png'
 });
 g.setNode("ladylike_roko", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'ladylike_roko',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/wezglowia/wezglowie_ladylike_115_roko08.png'
@@ -791,14 +791,14 @@ g.setNode("ladylike_aspen", {
 });
 g.setNode("ladylike_river", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'ladylike_river',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/wezglowia/wezglowie_ladylike_115_river02.png'
 });
 g.setNode("ladylike_eren", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'ladylike_eren',
     url: './img/tkaniny/eren_07.jpg',
     render: '/wezglowia/wezglowie_ladylike_115_eren07.png'
@@ -812,7 +812,7 @@ g.setNode("ladylike_ontario", {
 });
 g.setNode("ladylike_riviera", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'ladylike_riviera',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/wezglowia/wezglowie_ladylike_115_riviera38.png'
@@ -821,14 +821,14 @@ g.setNode("ladylike_riviera", {
 g.setNode("momiko_colors_7", {});
 g.setNode("momiko_novel", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'momiko_novel',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/wezglowia/wezglowie_momiko_95_novel13.png'
 });
 g.setNode("momiko_roko", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'momiko_roko',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/wezglowia/wezglowie_momiko_95_roko08.png'
@@ -842,14 +842,14 @@ g.setNode("momiko_aspen", {
 });
 g.setNode("momiko_river", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'momiko_river',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/wezglowia/wezglowie_momiko_95_river02.png'
 });
 g.setNode("momiko_eren", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'momiko_eren',
     url: './img/tkaniny/eren_07.jpg',
     render: '/wezglowia/wezglowie_momiko_95_eren07.png'
@@ -863,7 +863,7 @@ g.setNode("momiko_ontario", {
 });
 g.setNode("momiko_riviera", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'momiko_riviera',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/wezglowia/wezglowie_momiko_95_riviera38.png'
@@ -873,14 +873,14 @@ g.setNode("momiko_riviera", {
 g.setNode("urban_colors_7_170", {});
 g.setNode("urban_novel_170", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'urban_novel_170',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/wezglowia/wezglowie_urban_95_170_novel13.png'
 });
 g.setNode("urban_roko_170", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'urban_roko_170',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/wezglowia/wezglowie_urban_95_170_roko08.png'
@@ -894,14 +894,14 @@ g.setNode("urban_aspen_170", {
 });
 g.setNode("urban_river_170", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'urban_river_170',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/wezglowia/wezglowie_urban_95_170_river02.png'
 });
 g.setNode("urban_eren_170", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'urban_eren_170',
     url: './img/tkaniny/eren_07.jpg',
     render: '/wezglowia/wezglowie_urban_95_170_eren07.png'
@@ -915,7 +915,7 @@ g.setNode("urban_ontario_170", {
 });
 g.setNode("urban_riviera_170", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'urban_riviera_170',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/wezglowia/wezglowie_urban_95_170_riviera38.png'
@@ -924,14 +924,14 @@ g.setNode("urban_riviera_170", {
 g.setNode("preppy_colors_7_170", {});
 g.setNode("preppy_novel_170", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'preppy_novel_170',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/wezglowia/wezglowie_preppy_95_170_novel13.png'
 });
 g.setNode("preppy_roko_170", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'preppy_roko_170',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/wezglowia/wezglowie_preppy_95_170_roko08.png'
@@ -945,14 +945,14 @@ g.setNode("preppy_aspen_170", {
 });
 g.setNode("preppy_river_170", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'preppy_river_170',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/wezglowia/wezglowie_preppy_95_170_river02.png'
 });
 g.setNode("preppy_eren_170", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'preppy_eren_170',
     url: './img/tkaniny/eren_07.jpg',
     render: '/wezglowia/wezglowie_preppy_95_170_eren07.png'
@@ -966,7 +966,7 @@ g.setNode("preppy_ontario_170", {
 });
 g.setNode("preppy_riviera_170", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'preppy_riviera_170',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/wezglowia/wezglowie_preppy_95_170_riviera38.png'
@@ -974,7 +974,7 @@ g.setNode("preppy_riviera_170", {
 g.setNode("glamour_colors_7_170", {});
 g.setNode("glamour_novel_170", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'glamour_novel_170',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/wezglowia/wezglowie_glamour_115_170_novel13.png',
@@ -982,7 +982,7 @@ g.setNode("glamour_novel_170", {
 });
 g.setNode("glamour_roko_170", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'glamour_roko_170',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/wezglowia/wezglowie_glamour_115_170_roko08.png',
@@ -998,7 +998,7 @@ g.setNode("glamour_aspen_170", {
 });
 g.setNode("glamour_river_170", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'glamour_river_170',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/wezglowia/wezglowie_glamour_115_170_river02.png',
@@ -1006,7 +1006,7 @@ g.setNode("glamour_river_170", {
 });
 g.setNode("glamour_eren_170", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'glamour_eren_170',
     url: './img/tkaniny/eren_07.jpg',
     render: '/wezglowia/wezglowie_glamour_115_170_eren07.png',
@@ -1022,7 +1022,7 @@ g.setNode("glamour_ontario_170", {
 });
 g.setNode("glamour_riviera_170", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'glamour_riviera_170',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/wezglowia/wezglowie_glamour_115_170_riviera38.png',
@@ -1033,7 +1033,7 @@ g.setNode("glamour_riviera_170", {
 g.setNode("vintage_colors_7_170", {});
 g.setNode("vintage_novel_170", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'vintage_novel_170',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/wezglowia/wezglowie_vintage_95_170_novel13.png',
@@ -1041,7 +1041,7 @@ g.setNode("vintage_novel_170", {
 });
 g.setNode("vintage_roko_170", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'vintage_roko_170',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/wezglowia/wezglowie_vintage_95_170_roko08.png',
@@ -1057,7 +1057,7 @@ g.setNode("vintage_aspen_170", {
 });
 g.setNode("vintage_river_170", {
     g: 1,
-    name: 'river 2',
+    name: 'river 01',
     node: 'vintage_river_170',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/wezglowia/wezglowie_vintage_95_170_river02.png',
@@ -1065,7 +1065,7 @@ g.setNode("vintage_river_170", {
 });
 g.setNode("vintage_eren_170", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'vintage_eren',
     url: './img/tkaniny/eren_07.jpg',
     render: '/wezglowia/wezglowie_vintage_95_170_eren07.png',
@@ -1081,7 +1081,7 @@ g.setNode("vintage_ontario_170", {
 });
 g.setNode("vintage_riviera_170", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'vintage_riviera_170',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/wezglowia/wezglowie_vintage_95_170_riviera38.png',
@@ -1091,14 +1091,14 @@ g.setNode("vintage_riviera_170", {
 g.setNode("eclectic_colors_7_170", {});
 g.setNode("eclectic_novel_170", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'eclectic_novel_170',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/wezglowia/wezglowie_eclectic_95_170_novel13.png'
 });
 g.setNode("eclectic_roko_170", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'eclectic_roko_170',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/wezglowia/wezglowie_eclectic_95_170_roko08.png'
@@ -1112,14 +1112,14 @@ g.setNode("eclectic_aspen_170", {
 });
 g.setNode("eclectic_river_170", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'eclectic_river_170',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/wezglowia/wezglowie_eclectic_95_170_river02.png'
 });
 g.setNode("eclectic_eren_170", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'eclectic_eren_170',
     url: './img/tkaniny/eren_07.jpg',
     render: '/wezglowia/wezglowie_eclectic_95_170_eren07.png'
@@ -1133,7 +1133,7 @@ g.setNode("eclectic_ontario_170", {
 });
 g.setNode("eclectic_riviera_170", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'eclectic_riviera_170',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/wezglowia/wezglowie_eclectic_95_170_riviera38.png'
@@ -1142,14 +1142,14 @@ g.setNode("eclectic_riviera_170", {
 g.setNode("ladylike_colors_7_170", {});
 g.setNode("ladylike_novel_170", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'ladylike_novel_170',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/wezglowia/wezglowie_ladylike_115_170_novel13.png'
 });
 g.setNode("ladylike_roko_170", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'ladylike_roko_170',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/wezglowia/wezglowie_ladylike_115_170_roko08.png'
@@ -1163,14 +1163,14 @@ g.setNode("ladylike_aspen_170", {
 });
 g.setNode("ladylike_river_170", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'ladylike_river_170',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/wezglowia/wezglowie_ladylike_115_170_river02.png'
 });
 g.setNode("ladylike_eren_170", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'ladylike_eren_170',
     url: './img/tkaniny/eren_07.jpg',
     render: '/wezglowia/wezglowie_ladylike_115_170_eren07.png'
@@ -1184,7 +1184,7 @@ g.setNode("ladylike_ontario_170", {
 });
 g.setNode("ladylike_riviera_170", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'ladylike_riviera_170',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/wezglowia/wezglowie_ladylike_115_170_riviera38.png'
@@ -1193,14 +1193,14 @@ g.setNode("ladylike_riviera_170", {
 g.setNode("momiko_colors_7_170", {});
 g.setNode("momiko_novel_170", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'momiko_novel_170',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/wezglowia/wezglowie_momiko_95_170_novel13.png'
 });
 g.setNode("momiko_roko_170", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'momiko_roko_170',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/wezglowia/wezglowie_momiko_95_170_roko08.png'
@@ -1214,14 +1214,14 @@ g.setNode("momiko_aspen_170", {
 });
 g.setNode("momiko_river_170", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'momiko_river_170',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/wezglowia/wezglowie_momiko_95_170_river02.png'
 });
 g.setNode("momiko_eren_170", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'momiko_eren_170',
     url: './img/tkaniny/eren_07.jpg',
     render: '/wezglowia/wezglowie_momiko_95_170_eren07.png'
@@ -1235,7 +1235,7 @@ g.setNode("momiko_ontario_170", {
 });
 g.setNode("momiko_riviera_170", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'momiko_riviera_170',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/wezglowia/wezglowie_momiko_95_170_riviera38.png'
@@ -1764,14 +1764,14 @@ g.setNode("cover_tencel_top_t", {
 g.setNode("m_tap_colors_7", {});
 g.setNode("m_tap_novel", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'm_tap_novel',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/materace/materac_tapicerowany_h31_novel13.png'
 });
 g.setNode("m_tap_roko", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'm_tap_roko',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/materace/materac_tapicerowany_h31_roko08.png'
@@ -1785,14 +1785,14 @@ g.setNode("m_tap_aspen", {
 });
 g.setNode("m_tap_river", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'm_tap_river',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/materace/materac_tapicerowany_h31_river02.png'
 });
 g.setNode("m_tap_eren", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'm_tap_eren',
     url: './img/tkaniny/eren_07.jpg',
     render: '/materace/materac_tapicerowany_h31_eren07.png'
@@ -1806,7 +1806,7 @@ g.setNode("m_tap_ontario", {
 });
 g.setNode("m_tap_riviera", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'm_tap_riviera',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/materace/materac_tapicerowany_h31_riviera38.png'
@@ -1817,14 +1817,14 @@ g.setNode("m_tap_riviera", {
 g.setNode("bp_tap_colors_7", {});
 g.setNode("bp_tap_novel", {
     g: 2,
-    name: 'novel 13',
+    name: 'milos 98',
     node: 'bp_tap_novel',
     url: './img/tkaniny/novel_13_anthracite.jpg',
     render: '/materace/materac_tapicerowany_h31_novel13.png'
 });
 g.setNode("bp_tap_roko", {
     g: 2,
-    name: 'roko 8',
+    name: 'zoya 7',
     node: 'bp_tap_roko',
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/materace/materac_tapicerowany_h31_roko08.png'
@@ -1838,14 +1838,14 @@ g.setNode("bp_tap_aspen", {
 });
 g.setNode("bp_tap_river", {
     g: 2,
-    name: 'river 2',
+    name: 'river 01',
     node: 'bp_tap_river',
     url: './img/tkaniny/river_02_silver.jpg',
     render: '/materace/materac_tapicerowany_h31_river02.png'
 });
 g.setNode("bp_tap_eren", {
     g: 1,
-    name: 'eren 07',
+    name: 'zoya 03',
     node: 'bp_tap_eren',
     url: './img/tkaniny/eren_07.jpg',
     render: '/materace/materac_tapicerowany_h31_eren07.png'
@@ -1859,7 +1859,7 @@ g.setNode("bp_tap_ontario", {
 });
 g.setNode("bp_tap_riviera", {
     g: 1,
-    name: 'riviera 38',
+    name: 'piano 26',
     node: 'bp_tap_riviera',
     url: './img/tkaniny/riviera_38.jpg',
     render: '/materace/materac_tapicerowany_h31_riviera38.png'
@@ -4656,25 +4656,25 @@ g.setNode("materac_electro_200_200", {
 g.setNode("materac_foxtrot_tap_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 2229, g2: 2429},
+    price: {g1: 2409, g2: 2619},
     nextStep: 'step_5'
 });
 g.setNode("materac_foxtrot_tap_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 2399, g2: 2599},
+    price: {g1: 2589, g2: 2809},
     nextStep: 'step_5'
 });
 g.setNode("materac_foxtrot_tap_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 2629, g2: 2829},
+    price: {g1: 2839, g2: 3049},
     nextStep: 'step_5'
 });
 g.setNode("materac_foxtrot_tap_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*2099, g2: 2*2229},
+    price: {g1: 2*2269, g2: 2*2409},
     nextStep: 'step_5',
     extra: '*(2x 100/200)'
 });
@@ -4682,25 +4682,25 @@ g.setNode("materac_foxtrot_tap_200_200", {
 g.setNode("materac_chacha_tap_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 1929, g2: 2129},
+    price: {g1: 2079, g2: 2299},
     nextStep: 'step_5'
 });
 g.setNode("materac_chacha_tap_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 2099, g2: 2299},
+    price: {g1: 2269, g2: 2479},
     nextStep: 'step_5'
 });
 g.setNode("materac_chacha_tap_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 2299, g2: 2499},
+    price: {g1: 2479, g2: 2699},
     nextStep: 'step_5'
 });
 g.setNode("materac_chacha_tap_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*1729, g2: 2*1929},
+    price: {g1: 2*1869, g2: 2*2079},
     nextStep: 'step_5',
     extra: '*(2x 100/200)'
 });
@@ -4708,25 +4708,25 @@ g.setNode("materac_chacha_tap_200_200", {
 g.setNode("materac_flamenco_tap_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 2109, g2: 2309},
+    price: {g1: 2279, g2: 2499},
     nextStep: 'step_5'
 });
 g.setNode("materac_flamenco_tap_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 2299, g2: 2499},
+    price: {g1: 2479, g2: 2699},
     nextStep: 'step_5'
 });
 g.setNode("materac_flamenco_tap_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 2499, g2: 2699},
+    price: {g1: 2699, g2: 2919},
     nextStep: 'step_5'
 });
 g.setNode("materac_flamenco_tap_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*1899, g2: 2*2099},
+    price: {g1: 2*2049, g2: 2*2269},
     nextStep: 'step_5',
     extra: '*(2x 100/200)'
 });
@@ -5541,25 +5541,25 @@ g.setNode("bb_materac_electro_200_200", {
 g.setNode("bb_materac_foxtrot_tap_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 2229, g2: 2429},
+    price: {g1: 2409, g2: 2619},
     nextStep: 'bb_nawierzchniowy'
 });
 g.setNode("bb_materac_foxtrot_tap_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 2399, g2: 2599},
+    price: {g1: 2589, g2: 2809},
     nextStep: 'bb_nawierzchniowy'
 });
 g.setNode("bb_materac_foxtrot_tap_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 2629, g2: 2829},
+    price: {g1: 2839, g2: 3049},
     nextStep: 'bb_nawierzchniowy'
 });
 g.setNode("bb_materac_foxtrot_tap_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*2099, g2: 2*2229},
+    price: {g1: 2*2269, g2: 2*2409},
     nextStep: 'bb_nawierzchniowy',
     extra: '*(2x 100/200)'
 });
@@ -5567,25 +5567,25 @@ g.setNode("bb_materac_foxtrot_tap_200_200", {
 g.setNode("bb_materac_chacha_tap_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 1929, g2: 2129},
+    price: {g1: 2079, g2: 2299},
     nextStep: 'bb_nawierzchniowy'
 });
 g.setNode("bb_materac_chacha_tap_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 2099, g2: 2299},
+    price: {g1: 2269, g2: 2479},
     nextStep: 'bb_nawierzchniowy'
 });
 g.setNode("bb_materac_chacha_tap_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 2299, g2: 2499},
+    price: {g1: 2479, g2: 2699},
     nextStep: 'bb_nawierzchniowy'
 });
 g.setNode("bb_materac_chacha_tap_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*1729, g2: 2*1929},
+    price: {g1: 2*1869, g2: 2*2079},
     nextStep: 'bb_nawierzchniowy',
     extra: '*(2x 100/200)'
 });
@@ -5593,25 +5593,25 @@ g.setNode("bb_materac_chacha_tap_200_200", {
 g.setNode("bb_materac_flamenco_tap_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 2109, g2: 2309},
+    price: {g1: 2279, g2: 2499},
     nextStep: 'bb_nawierzchniowy'
 });
 g.setNode("bb_materac_flamenco_tap_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 2299, g2: 2499},
+    price: {g1: 2479, g2: 2699},
     nextStep: 'bb_nawierzchniowy'
 });
 g.setNode("bb_materac_flamenco_tap_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 2499, g2: 2699},
+    price: {g1: 2699, g2: 2919},
     nextStep: 'bb_nawierzchniowy'
 });
 g.setNode("bb_materac_flamenco_tap_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*1899, g2: 2*2099},
+    price: {g1: 2*2049, g2: 2*2269},
     nextStep: 'bb_nawierzchniowy',
     extra: '*(2x 100/200)'
 });
@@ -6298,80 +6298,80 @@ g.setNode("bp_materac_electro_200_200", {
 g.setNode("bp_materac_foxtrot_tap_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 1894.65, g2: 2064.65},
+    price: {g1: 2409, g2: 2619},
     nextStep: 'bp_nawierzchniowy'
 });
 g.setNode("bp_materac_foxtrot_tap_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 2229, g2: 2429},
+    price: {g1: 2589, g2: 2809},
     nextStep: 'bp_nawierzchniowy'
 });
 g.setNode("bp_materac_foxtrot_tap_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 2629, g2: 2829},
+    price: {g1: 2839, g2: 3049},
     nextStep: 'bp_nawierzchniowy'
 });
 g.setNode("bp_materac_foxtrot_tap_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*2629, g2: 2*2829},
+    price: {g1: 2*2269, g2: 2*2409},
     nextStep: 'bp_nawierzchniowy',
     extra: '*(2x 100/200)'
 });
 g.setNode("bp_materac_chacha_tap_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 1929, g2: 2129},
+    price: {g1: 2079, g2: 2299},
     nextStep: 'bp_nawierzchniowy'
 });
 g.setNode("bp_materac_chacha_tap_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 2099, g2: 2299},
+    price: {g1: 2269, g2: 2479},
     nextStep: 'bp_nawierzchniowy'
 });
 g.setNode("bp_materac_chacha_tap_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 2299, g2: 2499},
+    price: {g1: 2479, g2: 2699},
     nextStep: 'bp_nawierzchniowy'
 });
 g.setNode("bp_materac_chacha_tap_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*1729, g2: 2*1929},
+    price: {g1: 2*1869, g2: 2*2079},
     nextStep: 'bp_nawierzchniowy',
     extra: '*(2x 100/200)'
 });
 g.setNode("bp_materac_flamenco_tap_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 2109, g2: 2309},
+    price: {g1: 2279, g2: 2499},
     nextStep: 'bp_nawierzchniowy'
 });
 g.setNode("bp_materac_flamenco_tap_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 2299, g2: 2499},
+    price: {g1: 2479, g2: 2699},
     nextStep: 'bp_nawierzchniowy'
 });
 g.setNode("bp_materac_flamenco_tap_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 2499, g2: 2699},
+    price: {g1: 2699, g2: 2919},
     nextStep: 'bp_nawierzchniowy'
 });
 g.setNode("bp_materac_flamenco_tap_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*1899, g2: 2*2099},
+    price: {g1: 2*2049, g2: 2*2269},
     nextStep: 'bp_nawierzchniowy',
     extra: '*(2x 100/200)'
 });
 
-//*******************************8
+//********************************
 
 g.setNode("t_materac", {
     node: 't_materac',
@@ -7174,75 +7174,75 @@ g.setNode("t_materac_foxtrot_tap_90_200", {
 g.setNode("t_materac_foxtrot_tap_140_200", {
     label: '140/200',
     width: 90,
-    price: {g1: 2229, g2: 2429},
+    price: {g1: 2409, g2: 2619},
     nextStep: 'skrzynia_posciel_small'
 });
 g.setNode("t_materac_foxtrot_tap_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 2399, g2: 2599},
+    price: {g1: 2589, g2: 2809},
     nextStep: 'skrzynia_posciel_small'
 });
 g.setNode("t_materac_foxtrot_tap_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 2629, g2: 2829},
+    price: {g1: 2839, g2: 3049},
     nextStep: 'skrzynia_posciel_small'
 });
 g.setNode("t_materac_foxtrot_tap_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*2099, g2: 2*2229},
+    price: {g1: 2*2269, g2: 2*2409},
     nextStep: 'skrzynia_posciel_small',
     extra: '*(2x 100/200)'
 });
 g.setNode("t_materac_chacha_tap_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 1929, g2: 2129},
+    price: {g1: 2079, g2: 2299},
     nextStep: 'skrzynia_posciel_small'
 });
 g.setNode("t_materac_chacha_tap_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 2099, g2: 2299},
+    price: {g1: 2269, g2: 2479},
     nextStep: 'skrzynia_posciel_small'
 });
 g.setNode("t_materac_chacha_tap_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 2299, g2: 2499},
+    price: {g1: 2479, g2: 2699},
     nextStep: 'skrzynia_posciel_small'
 });
 g.setNode("t_materac_chacha_tap_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*1729, g2: 2*1929},
+    price: {g1: 2*1869, g2: 2*2079},
     nextStep: 'skrzynia_posciel_small',
     extra: '*(2x 100/200)'
 });
 g.setNode("t_materac_flamenco_tap_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 2109, g2: 2309},
+    price: {g1: 2279, g2: 2499},
     nextStep: 'skrzynia_posciel_big'
 });
 g.setNode("t_materac_flamenco_tap_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 2299, g2: 2499},
+    price: {g1: 2479, g2: 2699},
     nextStep: 'skrzynia_posciel_big'
 });
 g.setNode("t_materac_flamenco_tap_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 2499, g2: 2699},
+    price: {g1: 2699, g2: 2919},
     nextStep: 'skrzynia_posciel_big'
 });
 g.setNode("t_materac_flamenco_tap_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*1899, g2: 2*2099},
+    price: {g1: 2*2049, g2: 2*2269},
     nextStep: 'skrzynia_posciel_big',
     extra: '*(2x 100/200)'
 });
@@ -7303,7 +7303,7 @@ g.setNode("materac_alt_180_200", {
 g.setNode("materac_alt_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*609, g2: 2*609},
+    price: {g1: 1109, g2: 1109},
     nextStep: 'summary'
 });
 
@@ -7328,7 +7328,7 @@ g.setNode("materac_tenor_180_200", {
 g.setNode("materac_tenor_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*699, g2: 2*699},
+    price: {g1: 1279, g2: 1279},
     nextStep: 'summary'
 });
 g.setNode("materac_bass_140_200", {
@@ -7352,7 +7352,7 @@ g.setNode("materac_bass_180_200", {
 g.setNode("materac_bass_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*509, g2: 2*509},
+    price: {g1: 909, g2: 909},
     nextStep: 'summary'
 });
 
@@ -7624,11 +7624,11 @@ g.setNode("skrzynia_posciel_big_price", {
     render: 'transparent.png',
 });
 
-g.setNode("skrzynia_posciel_big_90_yes", {label: 'TAK',width: 90, price: {g1: 139, g2: 139}, nextStep: 'frame_with_box_90'});
-g.setNode("skrzynia_posciel_big_140_yes", {label: 'TAK',width: 140, price: {g1: 219, g2: 219}, nextStep: 'frame_with_box'});
-g.setNode("skrzynia_posciel_big_160_yes", {label: 'TAK',width: 160, price: {g1: 269, g2: 269}, nextStep: 'frame_with_box'});
-g.setNode("skrzynia_posciel_big_180_yes", {label: 'TAK',width: 180, price: {g1: 289, g2: 289}, nextStep: 'frame_with_box'});
-g.setNode("skrzynia_posciel_big_200_yes", {label: 'TAK',width: 200, price: {g1: 332, g2: 332}, nextStep: 'frame_with_box'});
+g.setNode("skrzynia_posciel_big_90_yes", {label: 'TAK',width: 90, price: {g1: 149, g2: 149}, nextStep: 'frame_with_box_90'});
+g.setNode("skrzynia_posciel_big_140_yes", {label: 'TAK',width: 140, price: {g1: 229, g2: 229}, nextStep: 'frame_with_box'});
+g.setNode("skrzynia_posciel_big_160_yes", {label: 'TAK',width: 160, price: {g1: 289, g2: 289}, nextStep: 'frame_with_box'});
+g.setNode("skrzynia_posciel_big_180_yes", {label: 'TAK',width: 180, price: {g1: 309, g2: 309}, nextStep: 'frame_with_box'});
+g.setNode("skrzynia_posciel_big_200_yes", {label: 'TAK',width: 200, price: {g1: 349, g2: 349}, nextStep: 'frame_with_box'});
 
 g.setNode("skrzynia_posciel_big_90_no", {label: 'NIE',width: 90, price: {g1: 0, g2: 0}, nextStep: 'frame_no_box_90'});
 g.setNode("skrzynia_posciel_big_140_no", {label: 'NIE',width: 140, price: {g1: 0, g2: 0}, nextStep: 'frame_no_box_big'});
@@ -7669,11 +7669,11 @@ g.setNode("skrzynia_posciel_90_price", {
 });
 
 
-g.setNode("skrzynia_posciel_small_90_yes", {label: 'TAK',width: 90, price: {g1: 139, g2: 199}, nextStep: 'frame_with_box_90'});
-g.setNode("skrzynia_posciel_small_140_yes", {label: 'TAK',width: 140, price: {g1: 219, g2: 219}, nextStep: 'frame_with_box'});
-g.setNode("skrzynia_posciel_small_160_yes", {label: 'TAK',width: 160, price: {g1: 269, g2: 269}, nextStep: 'frame_with_box'});
-g.setNode("skrzynia_posciel_small_180_yes", {label: 'TAK',width: 180, price: {g1: 289, g2: 289}, nextStep: 'frame_with_box'});
-g.setNode("skrzynia_posciel_small_200_yes", {label: 'TAK',width: 200, price: {g1: 332, g2: 332}, nextStep: 'frame_with_box'});
+g.setNode("skrzynia_posciel_small_90_yes", {label: 'TAK',width: 90, price: {g1: 149, g2: 149}, nextStep: 'frame_with_box_90'});
+g.setNode("skrzynia_posciel_small_140_yes", {label: 'TAK',width: 140, price: {g1: 229, g2: 229}, nextStep: 'frame_with_box'});
+g.setNode("skrzynia_posciel_small_160_yes", {label: 'TAK',width: 160, price: {g1: 289, g2: 289}, nextStep: 'frame_with_box'});
+g.setNode("skrzynia_posciel_small_180_yes", {label: 'TAK',width: 180, price: {g1: 309, g2: 309}, nextStep: 'frame_with_box'});
+g.setNode("skrzynia_posciel_small_200_yes", {label: 'TAK',width: 200, price: {g1: 349, g2: 349}, nextStep: 'frame_with_box'});
 
 g.setNode("skrzynia_posciel_small_90_no", {label: 'NIE',width: 90, price: {g1: 0, g2: 0}, nextStep: 'frame_no_box_90'});
 g.setNode("skrzynia_posciel_small_140_no", {label: 'NIE',width: 140, price: {g1: 0, g2: 0}, nextStep: 'frame_no_box_small'});
