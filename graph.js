@@ -2959,7 +2959,7 @@ g.setNode("bp_vintage_160_115", {
 g.setNode("bp_vintage_180_115", {
     label: '115',
     width: 180,
-    price: {g1: 1389, g2: 1069},
+    price: {g1: 1389, g2: 1499},
     nextStep: 'bp_step_typ_materaca'
 });
 g.setNode("bp_vintage_200_115", {
