@@ -3179,7 +3179,7 @@ g.setNode("t_preppy_180_95", {
 g.setNode("t_preppy_200_95", {
     label: '95',
     width: 200,
-    price: {g1: 2859, g2: 3199},
+    price: {g1: 2989, g2: 3199},
     nextStep: 't_legs'
 });
 
@@ -4992,7 +4992,7 @@ g.setNode("bb_materac_chacha_tapicerowany", {
     
 });
 g.setNode("bb_materac_flamenco_tapicerowany", {
-    node: 'materac_flamenco_tapicerowany',
+    node: 'bb_materac_flamenco_tapicerowany',
     label: 'Flamenco',
     img: '/materace/flamenco.jpg',
     render: 'materace/materac_tapicerowany_h31_novel13.png',
@@ -5637,7 +5637,7 @@ g.setNode("bp_materac_salsa", {
     label: 'Salsa',
     img: '/materace/salsa.jpg',
     render: 'materace/materac_salsa_h31.png',
-    cover: 'bp_velvet_tencel'
+    cover: 'bp_covers_velvet_tencel'
 });
 g.setNode("bp_materac_chacha", {
     node: 'bp_materac_chacha',
