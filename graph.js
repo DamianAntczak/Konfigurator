@@ -7658,7 +7658,7 @@ g.setNode("skrzynia_posciel_90", {
     label: 'pojemnik na pościel',
     number: 5,
     zIndex: 35,
-    skipToNode: 'frame_no_box_big',
+    skipToNode: 'frame_no_box_90',
     optionsFilter: true
 });
 
@@ -7790,11 +7790,10 @@ g.setNode("frame_lift_160", {label: '160/200',width: 160, price: {g1: 2*449, g2:
 g.setNode("frame_lift_180", {label: '180/200',width: 180, price: {g1: 2*459, g2: 2*459}, nextStep: 'summary'});
 g.setNode("frame_lift_200", {label: '200/200',width: 200, price: {g1: 2*469, g2: 2*469}, nextStep: 'summary'});
 
-g.setNode("frame_double_lift_90", {label: '90/200',width: 90, price: {g1: 568, g2: 568}, nextStep: 'summary'});
-g.setNode("frame_double_lift_140", {label: '140/200',width: 140, price: {g1: 639, g2: 639}, nextStep: 'summary'});
-g.setNode("frame_double_lift_160", {label: '160/200',width: 160, price: {g1: 659, g2: 659}, nextStep: 'summary'});
-g.setNode("frame_double_lift_180", {label: '180/200',width: 180, price: {g1: 689, g2: 689}, nextStep: 'summary'});
-g.setNode("frame_double_lift_200", {label: '200/200',width: 200, price: {g1: 749, g2: 749}, nextStep: 'summary'});
+g.setNode("frame_double_lift_140", {label: '140/200',width: 140, price: {g1: 669, g2: 669}, nextStep: 'summary'});
+g.setNode("frame_double_lift_160", {label: '160/200',width: 160, price: {g1: 689, g2: 689}, nextStep: 'summary'});
+g.setNode("frame_double_lift_180", {label: '180/200',width: 180, price: {g1: 729, g2: 729}, nextStep: 'summary'});
+g.setNode("frame_double_lift_200", {label: '200/200',width: 200, price: {g1: 789, g2: 789}, nextStep: 'summary'});
 
 
 g.setEdge("frame_with_box", "frame_family_expert");
@@ -7819,7 +7818,6 @@ g.setEdge("frame_lift", "frame_lift_160");
 g.setEdge("frame_lift", "frame_lift_180");
 g.setEdge("frame_lift", "frame_lift_200");
 
-g.setEdge("frame_double_lift", "frame_double_lift_90");
 g.setEdge("frame_double_lift", "frame_double_lift_140");
 g.setEdge("frame_double_lift", "frame_double_lift_160");
 g.setEdge("frame_double_lift", "frame_double_lift_180");
@@ -7913,9 +7911,9 @@ g.setNode("frame_family_expert_180", {label: '180/200',width: 180, price: {g1: 2
 g.setNode("frame_family_expert_200", {label: '200/200',width: 200, price: {g1: 2*399, g2: 2*399}, nextStep: 'summary'});
 
 g.setNode("frame_family_moto_90", {label: '90/200',width: 90, price: {g1: 1209, g2: 1209}, nextStep: 'summary'});
-g.setNode("frame_family_moto_160", {label: '160/200',width: 160, price: {g1: 1169, g2: 1169}, nextStep: 'summary'});
-g.setNode("frame_family_moto_180", {label: '180/200',width: 180, price: {g1: 1209, g2: 1209}, nextStep: 'summary'});
-g.setNode("frame_family_moto_200", {label: '200/200',width: 200, price: {g1: 1279, g2: 1279}, nextStep: 'summary'});
+g.setNode("frame_family_moto_160", {label: '160/200',width: 160, price: {g1: 2*1169, g2: 2*1169}, nextStep: 'summary'});
+g.setNode("frame_family_moto_180", {label: '180/200',width: 180, price: {g1: 2*1209, g2: 2*1209}, nextStep: 'summary'});
+g.setNode("frame_family_moto_200", {label: '200/200',width: 200, price: {g1: 2*1279, g2: 2*1279}, nextStep: 'summary'});
 
 g.setNode("frame_family_classic_90", {label: '90/200',width: 90, price: {g1: 239, g2: 239}, nextStep: 'summary'});
 g.setNode("frame_family_classic_140", {label: '140/200',width: 140, price: {g1: 379, g2: 379}, nextStep: 'summary'});
