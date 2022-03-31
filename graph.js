@@ -153,25 +153,25 @@ g.setNode("baza_tapicerowana_200_200", {
 g.setNode("box_podnoszony_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 4229.0, g2: 4229.0},
+    price: {g1: 4229.0, g2: 4459.0},
     nextStep: 'bp_wezglowie'
 });
 g.setNode("box_podnoszony_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 2*2599.0, g2: 2*2599.0},
+    price: {g1: 2*2599.0, g2: 2*2779.0},
     nextStep: 'bp_wezglowie'
 });
 g.setNode("box_podnoszony_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 2*2779.0, g2: 2*2779.0},
+    price: {g1: 2*2779.0, g2: 2*2949.0},
     nextStep: 'bp_wezglowie'
 });
 g.setNode("box_podnoszony_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*3079.0, g2: 2*3079.0},
+    price: {g1: 2*3079.0, g2: 2*3309.0},
     nextStep: 'bp_wezglowie'
 });
 
@@ -4646,25 +4646,25 @@ g.setNode("materac_electro_200_200", {
 g.setNode("materac_foxtrot_tap_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 2099.0, g2: 2099.0},
+    price: {g1: 2599.0, g2: 2829.0},
     nextStep: 'step_5'
 });
 g.setNode("materac_foxtrot_tap_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 2309.0, g2: 2309.0},
+    price: {g1: 2799.0, g2: 3039.0},
     nextStep: 'step_5'
 });
 g.setNode("materac_foxtrot_tap_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 2509.0, g2: 2509.0},
+    price: {g1: 3069.0, g2: 3299.0},
     nextStep: 'step_5'
 });
 g.setNode("materac_foxtrot_tap_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*1709.0, g2: 2*1709.0},
+    price: {g1: 2*2449.0, g2: 2*2599.0},
     nextStep: 'step_5',
     extra: '*(2x 100/200)'
 });
@@ -4672,25 +4672,25 @@ g.setNode("materac_foxtrot_tap_200_200", {
 g.setNode("materac_chacha_tap_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 1689.0, g2: 1689.0},
+    price: {g1: 2249.0, g2: 2479.0},
     nextStep: 'step_5'
 });
 g.setNode("materac_chacha_tap_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 1859.0, g2: 1859.0},
+    price: {g1: 2449.0, g2: 2679.0},
     nextStep: 'step_5'
 });
 g.setNode("materac_chacha_tap_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 2079.0, g2: 2079.0},
+    price: {g1: 2679.0, g2: 2919.0},
     nextStep: 'step_5'
 });
 g.setNode("materac_chacha_tap_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*1399.0, g2: 2*1399.0},
+    price: {g1: 2*2019.0, g2: 2*2249.0},
     nextStep: 'step_5',
     extra: '*(2x 100/200)'
 });
@@ -4698,25 +4698,25 @@ g.setNode("materac_chacha_tap_200_200", {
 g.setNode("materac_flamenco_tap_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 2289.0, g2: 2289.0},
+    price: {g1: 2459.0, g2: 2699.0},
     nextStep: 'step_5'
 });
 g.setNode("materac_flamenco_tap_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 2439.0, g2: 2439.0},
+    price: {g1: 2679.0, g2: 2919.0},
     nextStep: 'step_5'
 });
 g.setNode("materac_flamenco_tap_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 2849.0, g2: 2849.0},
+    price: {g1: 2919.0, g2: 3159.0},
     nextStep: 'step_5'
 });
 g.setNode("materac_flamenco_tap_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*1929.0, g2: 2*1929.0},
+    price: {g1: 2*2219.0, g2: 2*2449.0},
     nextStep: 'step_5',
     extra: '*(2x 100/200)'
 });
@@ -5583,25 +5583,25 @@ g.setNode("bb_materac_chacha_tap_200_200", {
 g.setNode("bb_materac_flamenco_tap_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 2459.0, g2: 2459.0},
+    price: {g1: 2459.0, g2: 2699.0},
     nextStep: 'bb_nawierzchniowy'
 });
 g.setNode("bb_materac_flamenco_tap_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 2679.0, g2: 2679.0},
+    price: {g1: 2679.0, g2: 2919.0},
     nextStep: 'bb_nawierzchniowy'
 });
 g.setNode("bb_materac_flamenco_tap_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 2919.0, g2: 2919.0},
+    price: {g1: 2919.0, g2: 3159.0},
     nextStep: 'bb_nawierzchniowy'
 });
 g.setNode("bb_materac_flamenco_tap_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*2219.0, g2: 2*2219.0},
+    price: {g1: 2*2219.0, g2: 2*2449.0},
     nextStep: 'bb_nawierzchniowy',
     extra: '*(2x 100/200)'
 });
@@ -6338,25 +6338,25 @@ g.setNode("bp_materac_chacha_tap_200_200", {
 g.setNode("bp_materac_flamenco_tap_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 2459.0, g2: 2459.0},
+    price: {g1: 2459.0, g2: 2699.0},
     nextStep: 'bp_nawierzchniowy'
 });
 g.setNode("bp_materac_flamenco_tap_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 2679.0, g2: 2679.0},
+    price: {g1: 2679.0, g2: 2919.0},
     nextStep: 'bp_nawierzchniowy'
 });
 g.setNode("bp_materac_flamenco_tap_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 2919.0, g2: 2919.0},
+    price: {g1: 2919.0, g2: 3159.0},
     nextStep: 'bp_nawierzchniowy'
 });
 g.setNode("bp_materac_flamenco_tap_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*2219.0, g2: 2*2219.0},
+    price: {g1: 2*2219.0, g2: 2*2449.0},
     nextStep: 'bp_nawierzchniowy',
     extra: '*(2x 100/200)'
 });
@@ -7208,25 +7208,25 @@ g.setNode("t_materac_chacha_tap_200_200", {
 g.setNode("t_materac_flamenco_tap_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 2459.0, g2: 2459.0},
+    price: {g1: 2459.0, g2: 2699.0},
     nextStep: 'skrzynia_posciel_big'
 });
 g.setNode("t_materac_flamenco_tap_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 2679.0, g2: 2679.0},
+    price: {g1: 2679.0, g2: 2919.0},
     nextStep: 'skrzynia_posciel_big'
 });
 g.setNode("t_materac_flamenco_tap_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 2919.0, g2: 2919.0},
+    price: {g1: 2919.0, g2: 3159.0},
     nextStep: 'skrzynia_posciel_big'
 });
 g.setNode("t_materac_flamenco_tap_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 2*2219.0, g2: 2*2219.0},
+    price: {g1: 2*2219.0, g2: 2*2449.0},
     nextStep: 'skrzynia_posciel_big',
     extra: '*(2x 100/200)'
 });
@@ -7269,74 +7269,74 @@ g.setNode("materac_tenor", {
 g.setNode("materac_alt_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 669.0, g2: 669.0},
+    price: {g1: 699.0, g2: 699.0},
     nextStep: 'summary'
 });
 g.setNode("materac_alt_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 729.0, g2: 729.0},
+    price: {g1: 769.0, g2: 769.0},
     nextStep: 'summary'
 });
 g.setNode("materac_alt_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 799.0, g2: 799.0},
+    price: {g1: 839.0, g2: 839.0},
     nextStep: 'summary'
 });
 g.setNode("materac_alt_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 1109.0, g2: 1109.0},
+    price: {g1: 1159.0, g2: 1159.0},
     nextStep: 'summary'
 });
 
 g.setNode("materac_tenor_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 769.0, g2: 769.0},
+    price: {g1: 809.0, g2: 809.0},
     nextStep: 'summary'
 });
 g.setNode("materac_tenor_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 849.0, g2: 849.0},
+    price: {g1: 889.0, g2: 889.0},
     nextStep: 'summary'
 });
 g.setNode("materac_tenor_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 939.0, g2: 939.0},
+    price: {g1: 989.0, g2: 989.0},
     nextStep: 'summary'
 });
 g.setNode("materac_tenor_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 1279.0, g2: 1279.0},
+    price: {g1: 1339.0, g2: 1339.0},
     nextStep: 'summary'
 });
 g.setNode("materac_bass_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 579.0, g2: 579.0},
+    price: {g1: 609.0, g2: 609.0},
     nextStep: 'summary'
 });
 g.setNode("materac_bass_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 629.0, g2: 629.0},
+    price: {g1: 659.0, g2: 659.0},
     nextStep: 'summary'
 });
 g.setNode("materac_bass_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 689.0, g2: 689.0},
+    price: {g1: 729.0, g2: 729.0},
     nextStep: 'summary'
 });
 g.setNode("materac_bass_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 909.0, g2: 909.0},
+    price: {g1: 949.0, g2: 949.0},
     nextStep: 'summary'
 });
 
@@ -7383,75 +7383,75 @@ g.setNode("bb_materac_tenor", {
 g.setNode("bb_materac_alt_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 669.0, g2: 669.0},
+    price: {g1: 699.0, g2: 699.0},
     nextStep: 'summary'
 });
 g.setNode("bb_materac_alt_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 729.0, g2: 729.0},
+    price: {g1: 769.0, g2: 769.0},
     nextStep: 'summary'
 });
 g.setNode("bb_materac_alt_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 799.0, g2: 799.0},
+    price: {g1: 839.0, g2: 839.0},
     nextStep: 'summary'
 });
 g.setNode("bb_materac_alt_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 1109.0, g2: 1109.0},
+    price: {g1: 1159.0, g2: 1159.0},
     nextStep: 'summary',
 });
 
 g.setNode("bb_materac_tenor_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 769.0, g2: 769.0},
+    price: {g1: 809.0, g2: 809.0},
     nextStep: 'summary'
 });
 g.setNode("bb_materac_tenor_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 849.0, g2: 849.0},
+    price: {g1: 889.0, g2: 889.0},
     nextStep: 'summary'
 });
 g.setNode("bb_materac_tenor_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 939.0, g2: 939.0},
+    price: {g1: 989.0, g2: 989.0},
     nextStep: 'summary'
 });
 g.setNode("bb_materac_tenor_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 1279.0, g2: 1279.0},
+    price: {g1: 1339.0, g2: 1339.0},
     nextStep: 'summary',
 });
 
 g.setNode("bb_materac_bass_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 579.0, g2: 579.0},
+    price: {g1: 609.0, g2: 609.0},
     nextStep: 'summary'
 });
 g.setNode("bb_materac_bass_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 629.0, g2: 629.0},
+    price: {g1: 659.0, g2: 659.0},
     nextStep: 'summary'
 });
 g.setNode("bb_materac_bass_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 689.0, g2: 689.0},
+    price: {g1: 729.0, g2: 729.0},
     nextStep: 'summary'
 });
 g.setNode("bb_materac_bass_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 909.0, g2: 909.0},
+    price: {g1: 949.0, g2: 949.0},
     nextStep: 'summary',
 });
 
@@ -7497,75 +7497,75 @@ g.setNode("bp_materac_tenor", {
 g.setNode("bp_materac_alt_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 669.0, g2: 669.0},
+    price: {g1: 699.0, g2: 699.0},
     nextStep: 'summary'
 });
 g.setNode("bp_materac_alt_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 729.0, g2: 729.0},
+    price: {g1: 769.0, g2: 769.0},
     nextStep: 'summary'
 });
 g.setNode("bp_materac_alt_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 799.0, g2: 799.0},
+    price: {g1: 839.0, g2: 839.0},
     nextStep: 'summary'
 });
 g.setNode("bp_materac_alt_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 1109.0, g2: 1109.0},
+    price: {g1: 1159.0, g2: 1159.0},
     nextStep: 'summary'
 });
 
 g.setNode("bp_materac_tenor_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 769.0, g2: 769.0},
+    price: {g1: 809.0, g2: 809.0},
     nextStep: 'summary'
 });
 g.setNode("bp_materac_tenor_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 849.0, g2: 849.0},
+    price: {g1: 889.0, g2: 889.0},
     nextStep: 'summary'
 });
 g.setNode("bp_materac_tenor_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 939.0, g2: 939.0},
+    price: {g1: 989.0, g2: 989.0},
     nextStep: 'summary'
 });
 g.setNode("bp_materac_tenor_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 1279.0, g2: 1279.0},
+    price: {g1: 1339.0, g2: 1339.0},
     nextStep: 'summary'
 });
 
 g.setNode("bp_materac_bass_140_200", {
     label: '140/200',
     width: 140,
-    price: {g1: 579.0, g2: 579.0},
+    price: {g1: 609.0, g2: 609.0},
     nextStep: 'summary'
 });
 g.setNode("bp_materac_bass_160_200", {
     label: '160/200',
     width: 160,
-    price: {g1: 629.0, g2: 629.0},
+    price: {g1: 659.0, g2: 659.0},
     nextStep: 'summary'
 });
 g.setNode("bp_materac_bass_180_200", {
     label: '180/200',
     width: 180,
-    price: {g1: 689.0, g2: 689.0},
+    price: {g1: 729.0, g2: 729.0},
     nextStep: 'summary'
 });
 g.setNode("bp_materac_bass_200_200", {
     label: '200/200',
     width: 200,
-    price: {g1: 909.0, g2: 909.0},
+    price: {g1: 9490, g2: 949.0},
     nextStep: 'summary'
 });
 
