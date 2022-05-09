@@ -6527,7 +6527,7 @@ g.setNode("t_materac_electro", {
 g.setNode("t_materac_tango_90_200", {
     label: '90/200',
     width: 90,
-    price: {g1: 1199, g2: 1199},
+    price: {g1: 1459, g2: 1459},
     nextStep: 'skrzynia_posciel_90'
 });
 g.setNode("t_materac_tango_140_200", {
@@ -7756,17 +7756,6 @@ g.setNode("frame_double_lift", {
     render: 'ramiak.png',
 });
 
-g.setNode("frame_family_expert_90", {label: '90/200',width: 90, price: {g1: 409, g2: 409}, nextStep: 'summary'});
-g.setNode("frame_family_expert_140", {label: '140/200',width: 140, price: {g1: 559, g2: 559}, nextStep: 'summary'});
-g.setNode("frame_family_expert_160", {label: '160/200',width: 160, price: {g1: 2*379, g2: 2*379}, nextStep: 'summary'});
-g.setNode("frame_family_expert_180", {label: '180/200',width: 180, price: {g1: 2*409, g2: 2*409}, nextStep: 'summary'});
-g.setNode("frame_family_expert_200", {label: '200/200',width: 200, price: {g1: 2*419, g2: 2*419}, nextStep: 'summary'});
-
-g.setNode("frame_family_classic_90", {label: '90/200',width: 90, price: {g1: 259, g2: 259}, nextStep: 'summary'});
-g.setNode("frame_family_classic_140", {label: '140/200',width: 140, price: {g1: 399, g2: 399}, nextStep: 'summary'});
-g.setNode("frame_family_classic_160", {label: '160/200',width: 160, price: {g1: 2*249, g2: 2*249}, nextStep: 'summary'});
-g.setNode("frame_family_classic_180", {label: '180/200',width: 180, price: {g1: 2*259, g2: 2*259}, nextStep: 'summary'});
-g.setNode("frame_family_classic_200", {label: '200/200',width: 200, price: {g1: 2*279, g2: 2*279}, nextStep: 'summary'});
 
 g.setNode("frame_lift_90", {label: '90/200',width: 90, price: {g1: 489, g2: 489}, nextStep: 'summary'});
 g.setNode("frame_lift_140", {label: '140/200',width: 140, price: {g1: 2*479, g2: 2*479}, nextStep: 'summary'});
@@ -7889,6 +7878,7 @@ g.setNode("frame_lift", {
     render: 'ramiak.png',
 });
 
+g.setNode("frame_family_expert_90", {label: '90/200',width: 90, price: {g1: 439, g2: 439}, nextStep: 'summary'});
 g.setNode("frame_family_expert_140", {label: '140/200',width: 140, price: {g1: 599, g2: 599}, nextStep: 'summary'});
 g.setNode("frame_family_expert_160", {label: '160/200',width: 160, price: {g1: 2*409, g2: 2*409}, nextStep: 'summary'});
 g.setNode("frame_family_expert_180", {label: '180/200',width: 180, price: {g1: 2*439, g2: 2*439}, nextStep: 'summary'});
@@ -7900,7 +7890,7 @@ g.setNode("frame_family_moto_180", {label: '180/200',width: 180, price: {g1: 2*1
 g.setNode("frame_family_moto_200", {label: '200/200',width: 200, price: {g1: 2*1459, g2: 2*1459}, nextStep: 'summary'});
 
 g.setNode("frame_family_classic_90", {label: '90/200',width: 90, price: {g1: 279, g2: 279}, nextStep: 'summary'});
-g.setNode("frame_family_classic_140", {label: '140/200',width: 140, price: {g1: 299, g2: 299}, nextStep: 'summary'});
+g.setNode("frame_family_classic_140", {label: '140/200',width: 140, price: {g1: 429, g2: 429}, nextStep: 'summary'});
 g.setNode("frame_family_classic_160", {label: '160/200',width: 160, price: {g1: 2*269, g2: 2*269}, nextStep: 'summary'});
 g.setNode("frame_family_classic_180", {label: '180/200',width: 180, price: {g1: 2*279, g2: 2*279}, nextStep: 'summary'});
 g.setNode("frame_family_classic_200", {label: '200/200',width: 200, price: {g1: 2*299, g2: 2*299}, nextStep: 'summary'});
