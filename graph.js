@@ -7879,7 +7879,7 @@ g.setNode("frame_lift", {
     render: 'ramiak.png',
 });
 
-g.setNode("frame_family_expert_90", {label: '90/200',width: 90, price: {g1: 459, g2: 459}, nextStep: 'summary'});
+g.setNode("frame_family_expert_90", {label: '90/200',width: 90, price: {g1: 489, g2: 489}, nextStep: 'summary'});
 g.setNode("frame_family_expert_140", {label: '140/200',width: 140, price: {g1: 669, g2: 669}, nextStep: 'summary'});
 g.setNode("frame_family_expert_160", {label: '160/200',width: 160, price: {g1: 2*459, g2: 2*459}, nextStep: 'summary', extra: '*(2x 80/200)'});
 g.setNode("frame_family_expert_180", {label: '180/200',width: 180, price: {g1: 2*489, g2: 2*489}, nextStep: 'summary', extra: '*(2x 90/200)'});
