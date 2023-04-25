@@ -191,21 +191,7 @@ g.setNode("kontynent_roko", {
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/bazy/baza_kontynentalna_h31_roko08.png'
 });
-g.setNode("kontynent_aspen", {
-    g: 2,
-    name: 'aspen 04',
-    node: 'kontynent_aspen',
-    url: './img/tkaniny/aspen_04_light.jpg',
-    render: '/bazy/baza_kontynentalna_h31_aspen04.png'
-});
 
-g.setNode("kontynent_river", {
-    g: 2,
-    name: 'river 01',
-    node: 'kontynent_river',
-    url: './img/tkaniny/river_02_silver.jpg',
-    render: '/bazy/baza_kontynentalna_h31_river02.png'
-});
 g.setNode("kontynent_eren", {
     g: 2,
     name: 'zoya 03',
@@ -243,21 +229,7 @@ g.setNode("kontynent_roko", {
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/bazy/baza_kontynentalna_h31_roko08.png'
 });
-g.setNode("kontynent_aspen", {
-    g: 2,
-    name: 'aspen 04',
-    node: 'kontynent_aspen',
-    url: './img/tkaniny/aspen_04_light.jpg',
-    render: '/bazy/baza_kontynentalna_h31_aspen04.png'
-});
 
-g.setNode("kontynent_river", {
-    g: 2,
-    name: 'river 01',
-    node: 'kontynent_river',
-    url: './img/tkaniny/river_02_silver.jpg',
-    render: '/bazy/baza_kontynentalna_h31_river02.png'
-});
 g.setNode("kontynent_eren", {
     g: 2,
     name: 'zoya 03',
@@ -295,21 +267,7 @@ g.setNode("kontynent_szuflada_roko", {
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/bazy/baza_kontynentalna_szuflady_h34_roko08.png'
 });
-g.setNode("kontynent_szuflada_aspen", {
-    g: 2,
-    name: 'aspen 04',
-    node: 'kontynent_szuflada_aspen',
-    url: './img/tkaniny/aspen_04_light.jpg',
-    render: '/bazy/baza_kontynentalna_szuflady_h34_aspen04.png'
-});
 
-g.setNode("kontynent_szuflada_river", {
-    g: 2,
-    name: 'river 01',
-    node: 'kontynent_szuflada_river',
-    url: './img/tkaniny/river_02_silver.jpg',
-    render: '/bazy/baza_kontynentalna_szuflady_h34_river02.png'
-});
 g.setNode("kontynent_szuflada_eren", {
     g: 2,
     name: 'zoya 03',
@@ -347,21 +305,7 @@ g.setNode("base_box_roko", {
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/bazy/baza_base_box_h31_roko08.png'
 });
-g.setNode("base_box_aspen", {
-    g: 2,
-    name: 'aspen 04',
-    node: 'base_box_aspen',
-    url: './img/tkaniny/aspen_04_light.jpg',
-    render: '/bazy/baza_base_box_h31_aspen04.png'
-});
 
-g.setNode("base_box_river", {
-    g: 2,
-    name: 'river 01',
-    node: 'base_box_river',
-    url: './img/tkaniny/river_02_silver.jpg',
-    render: '/bazy/baza_base_box_h31_river02.png'
-});
 g.setNode("base_box_eren", {
     g: 2,
     name: 'zoya 03',
@@ -400,21 +344,7 @@ g.setNode("base_podnoszony_roko", {
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/bazy/baza_box_podnoszony_h31_roko08.png'
 });
-g.setNode("base_podnoszony_aspen", {
-    g: 2,
-    name: 'aspen 04',
-    node: 'base_podnoszony_aspen',
-    url: './img/tkaniny/aspen_04_light.jpg',
-    render: '/bazy/baza_box_podnoszony_h31_aspen04.png'
-});
 
-g.setNode("base_podnoszony_river", {
-    g: 2,
-    name: 'river 01',
-    node: 'base_podnoszony_river',
-    url: './img/tkaniny/river_02_silver.jpg',
-    render: '/bazy/baza_box_podnoszony_h31_river02.png'
-});
 g.setNode("base_podnoszony_eren", {
     g: 2,
     name: 'zoya 03',
@@ -454,22 +384,7 @@ g.setNode("tapicerowana_roko", {
     render: '/bazy/baza_tapicerowana_h34_roko08.png',
     overlay: '/bazy/baza_tapicerowana_h34_roko08_add.png'
 });
-g.setNode("tapicerowana_aspen", {
-    g: 2,
-    name: 'aspen 04',
-    node: 'tapicerowana_aspen',
-    url: './img/tkaniny/aspen_04_light.jpg',
-    render: '/bazy/baza_tapicerowana_h34_aspen04.png',
-    overlay: '/bazy/baza_tapicerowana_h34_aspen04_add.png'
-});
-g.setNode("tapicerowana_river", {
-    g: 2,
-    name: 'river 01',
-    node: 'tapicerowana_river',
-    url: './img/tkaniny/river_02_silver.jpg',
-    render: '/bazy/baza_tapicerowana_h34_river02.png',
-    overlay: '/bazy/baza_tapicerowana_h34_river02_add.png'
-});
+
 g.setNode("tapicerowana_eren", {
     g: 2,
     name: 'zoya 03',
@@ -512,20 +427,7 @@ g.setNode("urban_roko", {
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/wezglowia/wezglowie_urban_95_roko08.png'
 });
-g.setNode("urban_aspen", {
-    g: 2,
-    name: 'aspen 04',
-    node: 'urban_aspen',
-    url: './img/tkaniny/aspen_04_light.jpg',
-    render: '/wezglowia/wezglowie_urban_95_aspen04.png'
-});
-g.setNode("urban_river", {
-    g: 2,
-    name: 'river 01',
-    node: 'urban_river',
-    url: './img/tkaniny/river_02_silver.jpg',
-    render: '/wezglowia/wezglowie_urban_95_river02.png'
-});
+
 g.setNode("urban_eren", {
     g: 2,
     name: 'zoya 03',
@@ -563,20 +465,7 @@ g.setNode("preppy_roko", {
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/wezglowia/wezglowie_preppy_95_roko08.png'
 });
-g.setNode("preppy_aspen", {
-    g: 2,
-    name: 'aspen 04',
-    node: 'preppy_aspen',
-    url: './img/tkaniny/aspen_04_light.jpg',
-    render: '/wezglowia/wezglowie_preppy_95_aspen04.png'
-});
-g.setNode("preppy_river", {
-    g: 2,
-    name: 'river 01',
-    node: 'preppy_river',
-    url: './img/tkaniny/river_02_silver.jpg',
-    render: '/wezglowia/wezglowie_preppy_95_river02.png'
-});
+
 g.setNode("preppy_eren", {
     g: 2,
     name: 'zoya 03',
@@ -616,22 +505,7 @@ g.setNode("glamour_roko", {
     render: '/wezglowia/wezglowie_glamour_115_roko08.png',
     overlay: '/wezglowia/wezglowie_glamour_115_roko08_add.png'
 });
-g.setNode("glamour_aspen", {
-    g: 2,
-    name: 'aspen 04',
-    node: 'glamour_aspen',
-    url: './img/tkaniny/aspen_04_light.jpg',
-    render: '/wezglowia/wezglowie_glamour_115_aspen04.png',
-    overlay: '/wezglowia/wezglowie_glamour_115_aspen04_add.png'
-});
-g.setNode("glamour_river", {
-    g: 1,
-    name: 'river 01',
-    node: 'glamour_river',
-    url: './img/tkaniny/river_02_silver.jpg',
-    render: '/wezglowia/wezglowie_glamour_115_river02.png',
-    overlay: '/wezglowia/wezglowie_glamour_115_river02_add.png'
-});
+
 g.setNode("glamour_eren", {
     g: 2,
     name: 'zoya 03',
@@ -675,22 +549,7 @@ g.setNode("vintage_roko", {
     render: '/wezglowia/wezglowie_vintage_95_roko08.png',
     overlay: '/wezglowia/wezglowie_vintage_95_roko08_add.png'
 });
-g.setNode("vintage_aspen", {
-    g: 2,
-    name: 'aspen 04',
-    node: 'vintage_aspen',
-    url: './img/tkaniny/aspen_04_light.jpg',
-    render: '/wezglowia/wezglowie_vintage_95_aspen04.png',
-    overlay: '/wezglowia/wezglowie_vintage_95_aspen04_add.png'
-});
-g.setNode("vintage_river", {
-    g: 2,
-    name: 'river 01',
-    node: 'vintage_river',
-    url: './img/tkaniny/river_02_silver.jpg',
-    render: '/wezglowia/wezglowie_vintage_95_river02.png',
-    overlay: '/wezglowia/wezglowie_vintage_95_river02_add.png'
-});
+
 g.setNode("vintage_eren", {
     g: 2,
     name: 'zoya 03',
@@ -731,20 +590,7 @@ g.setNode("eclectic_roko", {
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/wezglowia/wezglowie_eclectic_95_roko08.png'
 });
-g.setNode("eclectic_aspen", {
-    g: 2,
-    name: 'aspen 04',
-    node: 'eclectic_aspen',
-    url: './img/tkaniny/aspen_04_light.jpg',
-    render: '/wezglowia/wezglowie_eclectic_95_aspen04.png'
-});
-g.setNode("eclectic_river", {
-    g: 2,
-    name: 'river 01',
-    node: 'eclectic_river',
-    url: './img/tkaniny/river_02_silver.jpg',
-    render: '/wezglowia/wezglowie_eclectic_95_river02.png'
-});
+
 g.setNode("eclectic_eren", {
     g: 2,
     name: 'zoya 03',
@@ -782,20 +628,7 @@ g.setNode("ladylike_roko", {
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/wezglowia/wezglowie_ladylike_115_roko08.png'
 });
-g.setNode("ladylike_aspen", {
-    g: 2,
-    name: 'aspen 04',
-    node: 'ladylike_aspen',
-    url: './img/tkaniny/aspen_04_light.jpg',
-    render: '/wezglowia/wezglowie_ladylike_115_aspen04.png'
-});
-g.setNode("ladylike_river", {
-    g: 2,
-    name: 'river 01',
-    node: 'ladylike_river',
-    url: './img/tkaniny/river_02_silver.jpg',
-    render: '/wezglowia/wezglowie_ladylike_115_river02.png'
-});
+
 g.setNode("ladylike_eren", {
     g: 2,
     name: 'zoya 03',
@@ -833,20 +666,7 @@ g.setNode("momiko_roko", {
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/wezglowia/wezglowie_momiko_95_roko08.png'
 });
-g.setNode("momiko_aspen", {
-    g: 2,
-    name: 'aspen 04',
-    node: 'momiko_aspen',
-    url: './img/tkaniny/aspen_04_light.jpg',
-    render: '/wezglowia/wezglowie_momiko_95_aspen04.png'
-});
-g.setNode("momiko_river", {
-    g: 2,
-    name: 'river 01',
-    node: 'momiko_river',
-    url: './img/tkaniny/river_02_silver.jpg',
-    render: '/wezglowia/wezglowie_momiko_95_river02.png'
-});
+
 g.setNode("momiko_eren", {
     g: 2,
     name: 'zoya 03',
@@ -1776,20 +1596,7 @@ g.setNode("m_tap_roko", {
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/materace/materac_tapicerowany_h31_roko08.png'
 });
-g.setNode("m_tap_aspen", {
-    g: 2,
-    name: 'aspen 04',
-    node: 'm_tap_aspen',
-    url: './img/tkaniny/aspen_04_light.jpg',
-    render: '/materace/materac_tapicerowany_h31_aspen04.png'
-});
-g.setNode("m_tap_river", {
-    g: 2,
-    name: 'river 01',
-    node: 'm_tap_river',
-    url: './img/tkaniny/river_02_silver.jpg',
-    render: '/materace/materac_tapicerowany_h31_river02.png'
-});
+
 g.setNode("m_tap_eren", {
     g: 2,
     name: 'zoya 03',
@@ -1829,20 +1636,7 @@ g.setNode("bp_tap_roko", {
     url: './img/tkaniny/Roko088_blue.jpg',
     render: '/materace/materac_tapicerowany_h31_roko08.png'
 });
-g.setNode("bp_tap_aspen", {
-    g: 2,
-    name: 'aspen 04',
-    node: 'bp_tap_aspen',
-    url: './img/tkaniny/aspen_04_light.jpg',
-    render: '/materace/materac_tapicerowany_h31_aspen04.png'
-});
-g.setNode("bp_tap_river", {
-    g: 2,
-    name: 'river 01',
-    node: 'bp_tap_river',
-    url: './img/tkaniny/river_02_silver.jpg',
-    render: '/materace/materac_tapicerowany_h31_river02.png'
-});
+
 g.setNode("bp_tap_eren", {
     g: 2,
     name: 'zoya 03',
@@ -8051,96 +7845,72 @@ g.setEdge("box_podnoszony", "box_podnoszony_200_200");
 
 g.setEdge("kontynent_colors_7", "kontynent_novel");
 g.setEdge("kontynent_colors_7", "kontynent_roko");
-g.setEdge("kontynent_colors_7", "kontynent_aspen");
-g.setEdge("kontynent_colors_7", "kontynent_river");
 g.setEdge("kontynent_colors_7", "kontynent_eren");
 g.setEdge("kontynent_colors_7", "kontynent_ontario");
 g.setEdge("kontynent_colors_7", "kontynent_riviera");
 
 g.setEdge("kontynent_szuflada_colors_7", "kontynent_szuflada_novel");
 g.setEdge("kontynent_szuflada_colors_7", "kontynent_szuflada_roko");
-g.setEdge("kontynent_szuflada_colors_7", "kontynent_szuflada_aspen");
-g.setEdge("kontynent_szuflada_colors_7", "kontynent_szuflada_river");
 g.setEdge("kontynent_szuflada_colors_7", "kontynent_szuflada_eren");
 g.setEdge("kontynent_szuflada_colors_7", "kontynent_szuflada_ontario");
 g.setEdge("kontynent_szuflada_colors_7", "kontynent_szuflada_riviera");
 
 g.setEdge("base_box_colors_7", "base_box_novel");
 g.setEdge("base_box_colors_7", "base_box_roko");
-g.setEdge("base_box_colors_7", "base_box_aspen");
-g.setEdge("base_box_colors_7", "base_box_river");
 g.setEdge("base_box_colors_7", "base_box_eren");
 g.setEdge("base_box_colors_7", "base_box_ontario");
 g.setEdge("base_box_colors_7", "base_box_riviera");
 
 g.setEdge("base_podnoszony_colors_7", "base_podnoszony_novel");
 g.setEdge("base_podnoszony_colors_7", "base_podnoszony_roko");
-g.setEdge("base_podnoszony_colors_7", "base_podnoszony_aspen");
-g.setEdge("base_podnoszony_colors_7", "base_podnoszony_river");
 g.setEdge("base_podnoszony_colors_7", "base_podnoszony_eren");
 g.setEdge("base_podnoszony_colors_7", "base_podnoszony_ontario");
 g.setEdge("base_podnoszony_colors_7", "base_podnoszony_riviera");
 
 g.setEdge("tapicerowana_colors_7", "tapicerowana_novel");
 g.setEdge("tapicerowana_colors_7", "tapicerowana_roko");
-g.setEdge("tapicerowana_colors_7", "tapicerowana_aspen");
-g.setEdge("tapicerowana_colors_7", "tapicerowana_river");
 g.setEdge("tapicerowana_colors_7", "tapicerowana_eren");
 g.setEdge("tapicerowana_colors_7", "tapicerowana_ontario");
 g.setEdge("tapicerowana_colors_7", "tapicerowana_riviera");
 
 g.setEdge("urban_colors_7", "urban_novel");
 g.setEdge("urban_colors_7", "urban_roko");
-g.setEdge("urban_colors_7", "urban_aspen");
-g.setEdge("urban_colors_7", "urban_river");
 g.setEdge("urban_colors_7", "urban_eren");
 g.setEdge("urban_colors_7", "urban_ontario");
 g.setEdge("urban_colors_7", "urban_riviera");
 
 g.setEdge("preppy_colors_7", "preppy_novel");
 g.setEdge("preppy_colors_7", "preppy_roko");
-g.setEdge("preppy_colors_7", "preppy_aspen");
-g.setEdge("preppy_colors_7", "preppy_river");
 g.setEdge("preppy_colors_7", "preppy_eren");
 g.setEdge("preppy_colors_7", "preppy_ontario");
 g.setEdge("preppy_colors_7", "preppy_riviera");
 
 g.setEdge("glamour_colors_7", "glamour_novel");
 g.setEdge("glamour_colors_7", "glamour_roko");
-g.setEdge("glamour_colors_7", "glamour_aspen");
-g.setEdge("glamour_colors_7", "glamour_river");
 g.setEdge("glamour_colors_7", "glamour_eren");
 g.setEdge("glamour_colors_7", "glamour_ontario");
 g.setEdge("glamour_colors_7", "glamour_riviera");
 
 g.setEdge("vintage_colors_7", "vintage_novel");
 g.setEdge("vintage_colors_7", "vintage_roko");
-g.setEdge("vintage_colors_7", "vintage_aspen");
-g.setEdge("vintage_colors_7", "vintage_river");
 g.setEdge("vintage_colors_7", "vintage_eren");
 g.setEdge("vintage_colors_7", "vintage_ontario");
 g.setEdge("vintage_colors_7", "vintage_riviera");
 
 g.setEdge("eclectic_colors_7", "eclectic_novel");
 g.setEdge("eclectic_colors_7", "eclectic_roko");
-g.setEdge("eclectic_colors_7", "eclectic_aspen");
-g.setEdge("eclectic_colors_7", "eclectic_river");
 g.setEdge("eclectic_colors_7", "eclectic_eren");
 g.setEdge("eclectic_colors_7", "eclectic_ontario");
 g.setEdge("eclectic_colors_7", "eclectic_riviera");
 
 g.setEdge("ladylike_colors_7", "ladylike_novel");
 g.setEdge("ladylike_colors_7", "ladylike_roko");
-g.setEdge("ladylike_colors_7", "ladylike_aspen");
-g.setEdge("ladylike_colors_7", "ladylike_river");
 g.setEdge("ladylike_colors_7", "ladylike_eren");
 g.setEdge("ladylike_colors_7", "ladylike_ontario");
 g.setEdge("ladylike_colors_7", "ladylike_riviera");
 
 g.setEdge("momiko_colors_7", "momiko_novel");
 g.setEdge("momiko_colors_7", "momiko_roko");
-g.setEdge("momiko_colors_7", "momiko_aspen");
-g.setEdge("momiko_colors_7", "momiko_river");
 g.setEdge("momiko_colors_7", "momiko_eren");
 g.setEdge("momiko_colors_7", "momiko_ontario");
 g.setEdge("momiko_colors_7", "momiko_riviera");
@@ -8209,8 +7979,6 @@ g.setEdge("momiko_colors_7_170", "momiko_riviera_170");
 
 g.setEdge("m_tap_colors_7", "m_tap_novel");
 g.setEdge("m_tap_colors_7", "m_tap_roko");
-g.setEdge("m_tap_colors_7", "m_tap_aspen");
-g.setEdge("m_tap_colors_7", "m_tap_river");
 g.setEdge("m_tap_colors_7", "m_tap_eren");
 g.setEdge("m_tap_colors_7", "m_tap_ontario");
 g.setEdge("m_tap_colors_7", "m_tap_riviera");
@@ -8219,8 +7987,6 @@ g.setEdge("m_tap_colors_7", "m_tap_riviera");
 
 g.setEdge("bp_tap_colors_7", "bp_tap_novel");
 g.setEdge("bp_tap_colors_7", "bp_tap_roko");
-g.setEdge("bp_tap_colors_7", "bp_tap_aspen");
-g.setEdge("bp_tap_colors_7", "bp_tap_river");
 g.setEdge("bp_tap_colors_7", "bp_tap_eren");
 g.setEdge("bp_tap_colors_7", "bp_tap_ontario");
 g.setEdge("bp_tap_colors_7", "bp_tap_riviera");
